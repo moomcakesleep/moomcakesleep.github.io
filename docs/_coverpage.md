@@ -8,6 +8,5 @@
 
 [GitHub](https://github.com/moomcakesleep/moomcakesleep.github.io)
 [Get Started](#什麼都沒有的首頁)
-[Happy Birthday](birthday/bili_59208913059)
 
 ![color](#f0f0f0)
