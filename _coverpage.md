@@ -5,6 +5,6 @@
 > 这里是moomcake的网站ww
 
 [GitHub](https://github.com/moomcakesleep/moomcakesleep.github.io)
-[Get Started](#首页)
+[Get Started](/#首页)
 
 ![color](#f0f0f0)
