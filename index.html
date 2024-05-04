@@ -37,27 +37,29 @@
 	}
      }
   </script>
-  <div id="waline"></div>
-  <script type="module">
-    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
-    init({
-      el: '#waline',
-      serverURL: 'https://comment.moomcakesleep.top',
-      emoji: [
-      '//unpkg.com/@waline/emojis@1.2.0/bilibili',
-      '//unpkg.com/@waline/emojis@1.2.0/bmoji',
-      '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
-      '//unpkg.com/@waline/emojis@1.2.0/qq'
-      ]
-    });
-  </script>
-   <!-- Docsify v4 -->
+
+  <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!--Waline-->
+  <div id="waline"></div>
+  <script type="module">
+	import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+	init({
+	  el: '#waline',
+	  serverURL: 'https://comment.moomcakesleep.top',
+	  emoji: [
+	    '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+	    '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+	    '//unpkg.com/@waline/emojis@1.2.0/qq',
+	    '//unpkg.com/@waline/emojis@1.2.0/tw-emoji'
+	    ]
+  });
+  </script>
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
     navigator.serviceWorker.register('sw.js'
   </script>
 </body>
-
 </html>
