@@ -4,4 +4,4 @@
 
    -   [更新日志](/changelog.md)
  
-   -   [Python解释器](pyrepl.moomcakesleep.top)
+   -   [Python解释器](https://pyrepl.moomcakesleep.top)
