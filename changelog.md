@@ -1,12 +1,22 @@
 # 更新日志
 
+## 2024年5月4日
+
+将评论系统从[Cusdis](https://cusdis.com)迁移至[Waline](https://waline.js.org)
+
+将pyrepl部署至[Vercel](https://vercel.com)，添加自己的域名后使用[Cloudflare](https://www.cloudflare-cn.com/)进行加速
+
+## 2024年5月3日
+
+将购买的域名(moomcakesleep.top)(5月2号在[Dynadot](https://dynadot.com.cn)买的)解析至本站，并使用[Cloudflare](https://www.cloudflare-cn.com/)进行加速
+
 ## 2024年4月24日
 
 moomcake生日快樂！
 
 ## 2024年4月22日
 
-删除了**weird**文件夹，将音游圣经重移回根目录，添加Python解释器快速跳转链接
+删除了**weird**文件夹，将音游圣经重移回根目录，添加Pyrepl快速跳转链接
 
 ## 2024年2月10日
 

@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="icon" href="icon.svg">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
+  <link rel="stylesheet"href="https://unpkg.com/@waline/client@v3/dist/waline.css"/>
 </head>
 
 <body>
@@ -25,10 +26,6 @@
       loadNavbar: true,
       coverpage: true,
       subMaxLevel: 2,
-      cusdis: {
-      host: 'https://cusdis.com',
-      appId: 'b030ac11-84f8-4414-935a-9e400d345276',
-    },
       search: {
 	path: [],
 	placeholder:{
@@ -39,27 +36,27 @@
             },
 	}
      }
-    window.CUSDIS_LOCALE = {
-    "powered_by": "Powered by Cusdis",
-    "post_comment": "发送",
-    "loading": "加载中",
-    "email": "邮箱地址 (可选)",
-    "nickname": "昵称",
-    "reply_placeholder": "内容...",
-    "reply_btn": "回复",
-    "sending": "发送中...",
-    "mod_badge": "管理员",
-    "content_is_required": "内容不能为空",
-    "nickname_is_required": "昵称不能为空",
-    "comment_has_been_sent": "评论已发送，管理员审核通过后会展示"
-  }
+  </script>
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+    init({
+      el: '#waline',
+      serverURL: 'https://comment.moomcakesleep.top',
+      emoji: [
+      '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+      '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+      '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+      '//unpkg.com/@waline/emojis@1.2.0/qq'
+      ]
+    });
   </script>
    <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cusdis.com/js/cusdis.docsify.js">
+  <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
-    navigator.serviceWorker.register('sw.js')
+    navigator.serviceWorker.register('sw.js'
   </script>
 </body>
 
