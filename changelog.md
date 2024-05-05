@@ -2,7 +2,7 @@
 
 ## 2024年5月5日
 
-你现在可通过访问 [status.moomcakesleep.top](status.moomcakesleep.top) 来查看 moomcake's Website 的服务器运行状态
+你现在可通过访问 [status.moomcakesleep.top](https://status.moomcakesleep.top) 来查看 moomcake's Website 的服务器运行状态
 
 效果如下图
 
