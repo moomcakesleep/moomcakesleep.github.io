@@ -1,5 +1,13 @@
 # 更新日志
 
+## 2024年5月5日
+
+你现在可通过访问 [status.moomcakesleep.top](status.moomcakesleep.top) 来查看 moomcake's Website 的服务器运行状态
+
+效果如下图
+
+![Status](https://img2.imgtp.com/2024/05/05/H3WO6i4B.jpg)
+
 ## 2024年5月4日
 
 将评论系统从[Cusdis](https://cusdis.com)迁移至[Waline](https://waline.js.org)
