@@ -14,35 +14,39 @@
   <title>Welcome to moomcake's Website</title>
   <link rel="icon" href="icon.svg">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"/>
-
-  <!--Docsify Waline-->
-  <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
-
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>
+  
+  <!-- KaTeX -->
+  <script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  
+  <!-- Waline -->
+  <script src="https://unpkg.com/@waline/client@v3/dist/waline.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css"/>
+  
 </head>
 
 <body>
 
-  <div id="app"></div>
+  <div id="app">坐和放宽，马上就好... ...</div>
   <script>
     window.$docsify = {
       name: "moomcake's Website",
       nameLink: '/',
-      repo: '',
       loadSidebar: true,
       loadNavbar: true,
       coverpage: true,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
 
       //搜索
       search: {
-	path: [],
-	placeholder:{
-	  '/':'搜索'		  
-	    },
-	noData: {
-        '/': '找不到结果' 
-            },
+        path: [],
+        placeholder:{
+          '/':'搜索'		  
+          },
+        noData: {
+        '/': '找不到结果'
+          },
 	},
 
       //计数
@@ -54,22 +58,25 @@
       waline: {
         serverURL: 'https://comment.moomcakesleep.top',
         emoji: [
-	  '//unpkg.com/@waline/emojis@1.2.0/bmoji',
-	  '//unpkg.com/@waline/emojis@1.2.0/bilibili',
-	  '//unpkg.com/@waline/emojis@1.2.0/qq',
-	  '//unpkg.com/@waline/emojis@1.2.0/tw-emoji'
-	],
-      },
-     };
+          '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+          '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+          '//unpkg.com/@waline/emojis@1.2.0/qq',
+          '//unpkg.com/@waline/emojis@1.2.0/tw-emoji'
+          ],
+        },
+      };
   </script>
 
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  
+  <!-- Plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
   <script src="//unpkg.com/docsify/docsify-count/dist/countable.min.js"></script>
-
-  <!--Docsify Waline-->
-  <script src="https://unpkg.com/docsify-waline@2/docsify-waline.min.js"></script>
+  <script src="//unpkg.com/docsify-waline@2/docsify-waline.min.js"></script>
 
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
