@@ -1,5 +1,11 @@
 # 更新日志
 
+## 2024年6月9日
+
+将所有使用[cdn.jsdelivr.net](cdn.jsdelivr.net)的包改为使用[unpkg.com](unpkg.com)
+
+讲真，感觉现在cdn.jsdelivr.net国内访问真的好慢，以前都不是的
+
 ## 2024年5月19日
 
 时隔2个星期终于又更新了（鼓掌）
