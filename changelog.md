@@ -8,7 +8,7 @@
 
 ## 2024年6月9日
 
-将所有使用 [cdn.jsdelivr.net](https://cdn.jsdelivr.net) 的包改为使用 [unpkg.com](https://unpkg.com
+将所有使用 [cdn.jsdelivr.net](https://cdn.jsdelivr.net) 的包改为使用 [unpkg.com](https://unpkg.com)
 
 讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的
 
