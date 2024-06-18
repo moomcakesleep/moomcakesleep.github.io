@@ -8,9 +8,9 @@
 
 ## 2024年6月9日
 
-将所有使用 [cdn.jsdelivr.net](https://cdn.jsdelivr.net) 的包改为使用 [unpkg.com](https://unpkg.com)
+将所有使用 [cdn.jsdelivr.net](https://cdn.jsdelivr.net) 的包改为使用 [unpkg.com](https://unpkg.com
 
-讲真，感觉现在cdn.jsdelivr.net国内访问真的好慢，以前都不是的
+讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的
 
 ## 2024年5月19日
 
@@ -35,6 +35,7 @@
 ## 2024年5月4日
 
 将评论系统从 [Cusdis](https://cusdis.com) 迁移至 [Waline](https://waline.js.org)
+
 将 pyrepl 部署至 [Vercel](https://vercel.com)，添加自己的域名后使用[Cloudflare](https://www.cloudflare-cn.com/)进行加速
 
 ## 2024年5月3日
