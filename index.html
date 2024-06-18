@@ -16,9 +16,9 @@
   <link rel="stylesheet" href="//unpkg.com/docsify@4/themes/vue.css"/>
   <link rel="stylesheet" href="//unpkg.com/docsify-sidebar-collapse/dist/sidebar.min.css"/>
   
-  <!-- KaTeX -->
-  <script src="//unpkg.com/katex@latest/dist/katex.min.js"></script>
-  <link rel="stylesheet" href="//unpkg.com/katex@latest/dist/katex.min.css"/>
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://unpkg.com/mathjax@v3/es5/tex-svg.js"></script>
   
   <!-- Waline -->
   <script src="//unpkg.com/@waline/client@v2/dist/waline.js"></script>
@@ -36,6 +36,7 @@
       loadSidebar: true,
       loadNavbar: true,
       coverpage: true,
+      onlyCover: true,
       subMaxLevel: 3,
 
       //搜索

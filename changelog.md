@@ -1,8 +1,14 @@
 # 更新日志
 
+## 2024年6月18日
+
+1. 不再使用 **KaTeX** 进行 **LaTeX** 渲染，改为使用 **MathJax**
+2. 免费图床 [imgtp.com](https://www.imgtp.com) 似了，所以自己用 **Cloudflare Pages** + **Telegraph** 搭了一个[点我查看](https://img.moomcakesleep.top/)，感谢 **@cf-pages** 大佬的 [Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) 项目，同时感谢我的同学(自称 **Moriarty** 之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)
+3. 将封面和 **README** 分离了，感觉这样更好些
+
 ## 2024年6月9日
 
-将所有使用[cdn.jsdelivr.net](cdn.jsdelivr.net)的包改为使用[unpkg.com](unpkg.com)
+将所有使用 [cdn.jsdelivr.net](https://cdn.jsdelivr.net) 的包改为使用 [unpkg.com](https://unpkg.com)
 
 讲真，感觉现在cdn.jsdelivr.net国内访问真的好慢，以前都不是的
 
@@ -24,7 +30,7 @@
 
 效果如下图
 
-![Status](https://img2.imgtp.com/2024/05/05/H3WO6i4B.jpg)
+![Status](https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg)
 
 ## 2024年5月4日
 
