@@ -1,0 +1,205 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+  <title>Welcome to moomcake's Website</title>
+  <atom:link href="https://moomcakesleep.top/feed.xml" rel="self" type="application/rss+xml" />
+  <link>https://moomcakesleep.top</link>
+  <description>Welcome to moomcake's Website</description>
+   
+  <item>
+    <title><![CDATA[更新日志]]></title>
+    <link>https://moomcakesleep.top/#/changelog</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/changelog</guid>
+    <description><![CDATA[<h1 id="更新日志">更新日志</h1>
+<h2 id="年6月21日">2024年6月21日</h2>
+<p>改了一下评论通知的模板，来自 <strong><span class="citation" data-cites="SaraKale">@SaraKale</span></strong> 的博文<a href="https://www.sarakale.top/blog/posts/537344b2">waline 邮件通知模板一览</a></p>
+<h2 id="年6月20日">2024年6月20日</h2>
+<ol type="1">
+<li>更新了评论系统。现在，如果您在评论时输入了邮箱，那么被回复后将会在邮箱进行通知；另外，你现在还可以注册账号，更方便地发布评论</li>
+<li>修复了一些小问题</li>
+</ol>
+<h2 id="年6月18日">2024年6月18日</h2>
+<ol type="1">
+<li>不再使用 <strong>KaTeX</strong> 进行 <strong>LaTeX</strong> 渲染，改为使用 <strong>MathJax</strong></li>
+<li>免费图床 <a href="https://www.imgtp.com">imgtp.com</a> 似了，所以自己用 <strong>Cloudflare Pages</strong> + <strong>Telegraph</strong> 搭了一个<a href="https://img.moomcakesleep.top/">点我查看</a>，感谢 <strong><span class="citation" data-cites="cf-pages">@cf-pages</span></strong> 大佬的 <a href="https://github.com/cf-pages/Telegraph-Image">Telegraph-Image</a> 项目，同时感谢我的同学(自称 <strong>Moriarty</strong> 之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)</li>
+<li>将封面和 <strong>README</strong> 分离了，感觉这样更好些</li>
+</ol>
+<h2 id="年6月9日">2024年6月9日</h2>
+<p>将所有使用 <a href="https://cdn.jsdelivr.net">cdn.jsdelivr.net</a> 的包改为使用 <a href="https://unpkg.com">unpkg.com</a></p>
+<p>讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的</p>
+<h2 id="年5月19日">2024年5月19日</h2>
+<p>时隔2个星期终于又更新了（鼓掌） 更新内容: 1. 删除了 <strong>birthday</strong> 分支，将原 <strong>birthday</strong> 分支下的 <strong>birthday</strong> 文件夹移动至 <strong>main</strong> 根目录 2. 新建 <strong>festival</strong> 文件夹与 <strong>festival/2024</strong> 文件夹，并将 <strong>元旦快乐.md</strong> 与 <strong>新年快樂.md</strong> 移动至 <strong>festival/2024</strong> 文件夹 3. 新建 <strong>rhythm_game</strong> (音游)文件夹，并将 <strong>音游圣经.md</strong> 移动至其中 4. 增加 LaTeX 支持 5. 添加侧边栏展开插件 6. 新建 <strong>math</strong> (数学文件夹)，并于其编辑 <strong>实数r的a次方根近似公式及推导过程.md</strong> 7. 其余一些小更新</p>
+<h2 id="年5月5日">2024年5月5日</h2>
+<p>你现在可通过访问 <a href="https://status.moomcakesleep.top">status.moomcakesleep.top</a> 来查看 moomcake’s Website 的服务器运行状态</p>
+<p>效果如下图</p>
+<figure>
+<img src="https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg" alt="" /><figcaption>Status</figcaption>
+</figure>
+<h2 id="年5月4日">2024年5月4日</h2>
+<p>将评论系统从 <a href="https://cusdis.com">Cusdis</a> 迁移至 <a href="https://waline.js.org">Waline</a></p>
+<p>将 pyrepl 部署至 <a href="https://vercel.com">Vercel</a>，添加自己的域名后使用<a href="https://www.cloudflare-cn.com/">Cloudflare</a>进行加速</p>
+<h2 id="年5月3日">2024年5月3日</h2>
+<p>将购买的域名(moomcakesleep.top)(5月2号在 <a href="https://dynadot.com.cn">Dynadot</a> 买的)解析至本站，并使用 <a href="https://www.cloudflare-cn.com/">Cloudflare</a> 进行加速</p>
+<h2 id="年4月24日">2024年4月24日</h2>
+<p>moomcake生日快樂！</p>
+<h2 id="年4月22日">2024年4月22日</h2>
+<p>删除了 <strong>weird</strong> 文件夹，将 <strong>音游圣经</strong> 重移回根目录，添加 Pyrepl 快速跳转链接</p>
+<h2 id="年2月10日">2024年2月10日</h2>
+<p>各位新年快樂！</p>
+<h2 id="年2月1日">2024年2月1日</h2>
+<p>增加了离线模式<br> 另外如果不是较大地更新以后都不在这裡写了</p>
+<h2 id="年1月16日">2024年1月16日</h2>
+<p>改好了</p>
+<h2 id="年1月14日">2024年1月14日</h2>
+<p>更新了内容，包括：更改首页，删除 Hello,World ，建立奇奇怪怪的东西目录并将音游圣经移动至内部以及，写了这个更新日志</p>
+<h2 id="年1月1日">2024年1月1日</h2>
+<p>庆祝新年快乐</p>
+<h2 id="年8月15日">2023年8月15日</h2>
+<p>给庆祝生日的单独建立了一个分支(birthday)</p>
+<h2 id="年8月14日">2023年8月14日</h2>
+<p>网站上线，并同时为同日生日的<a href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
+<p><em>注:2024年1月14日以前的因为时间跨度较大而导致时间可能稍有不准确，不过内容我还是准确的</em></p>]]></description>
+    <pubDate>Fri, 21 Jun 2024 22:53:26 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[logo](/icon.svg)]]></title>
+    <link>https://moomcakesleep.top/#/_coverpage</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/_coverpage</guid>
+    <description><![CDATA[<figure>
+<img src="/icon.svg" alt="" /><figcaption>logo</figcaption>
+</figure>
+<h1 id="moomcakes-website1.0">moomcake’s Website<small>1.0</small></h1>
+<blockquote>
+<p>这里是moomcake的网站ww</p>
+</blockquote>
+<p><a href="https://github.com/moomcakesleep/moomcakesleep.github.io">GitHub</a> <a href="/README#moomcake39s-website">Get Started</a></p>
+<figure>
+<img src="#f0f0f0" alt="" /><figcaption>color</figcaption>
+</figure>]]></description>
+    <pubDate>Tue, 18 Jun 2024 20:44:24 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[实数r的a次方根近似公式及推导过程]]></title>
+    <link>https://moomcakesleep.top/#/math/%e5%ae%9e%e6%95%b0r%e7%9a%84a%e6%ac%a1%e6%96%b9%e6%a0%b9%e8%bf%91%e4%bc%bc%e5%85%ac%e5%bc%8f%e5%8f%8a%e6%8e%a8%e5%af%bc%e8%bf%87%e7%a8%8b</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/math/%e5%ae%9e%e6%95%b0r%e7%9a%84a%e6%ac%a1%e6%96%b9%e6%a0%b9%e8%bf%91%e4%bc%bc%e5%85%ac%e5%bc%8f%e5%8f%8a%e6%8e%a8%e5%af%bc%e8%bf%87%e7%a8%8b</guid>
+    <description><![CDATA[<h1 id="实数r的a次方根近似公式及推导过程">实数r的a次方根近似公式及推导过程</h1>
+<h2 id="公式">公式</h2>
+<p><span class="math inline">$x_{n+1}=\frac{1}{a}\left[(a-1) x_{n} +\frac{r}{x_{n}^{a-1}}\right]$</span></p>
+<h2 id="推导过程">推导过程</h2>
+<p>设 <span class="math inline"><em>f</em>(<em>x</em>) = <em>x</em><sup><em>n</em></sup> − <em>r</em></span> ，根据牛顿迭代公式<span class="math inline">$x_{n+1} = x_{n} - \frac{f\left ( x_{n} \right ) }{f'\left ( x_{n} \right ) }$</span>，则有</p>
+<p><span class="math inline">$x_{n+1}=x_{n} - \frac{x_{n}^{a}-r}{ax_{n}^{a-1}}$</span></p>
+<p>等式右边进行通分，得</p>
+<p><span class="math inline">$x_{n+1}=\frac{ax_{n}^{a}-x_{n}^{a}+r}{ax_{n}^{a-1}}$</span></p>
+<p>等式右边上下同时约去<span class="math inline"><em>a</em><em>x</em><sub><em>n</em></sub><sup><em>a</em> − 1</sup></span>，得</p>
+<p><span class="math inline">$x_{n+1}=\frac{ax_{n}-x_{n}+\frac{r}{x_{n}^{a-1}}}{a}$</span></p>
+<p>变形，得</p>
+<p><span class="math inline">$x_{n+1}=\frac{1}{a} \left [\left ( a-1 \right )x_{n}+\frac{r}{x_{n}^{a-1}} \right ]$</span></p>]]></description>
+    <pubDate>Sun, 9 Jun 2024 15:35:45 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[圣经]]></title>
+    <link>https://moomcakesleep.top/#/rhythm_game/%e9%9f%b3%e6%b8%b8%e5%9c%a3%e7%bb%8f</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/rhythm_game/%e9%9f%b3%e6%b8%b8%e5%9c%a3%e7%bb%8f</guid>
+    <description><![CDATA[<h1 id="音游圣经">音游圣经</h1>
+<h2 id="有他有我也有你">有他有我也有你</h2>
+<p>今天是著名音游大神xxx拿下xxx的日子，山高路远，岁月漫漫，有你，一切都变得有趣。所有的美好都将如期而至，所有的阴霾都将被阳光赶走。刹那间，天地失却颜色，三万里冰川消融，暖阳拂过大地，花开到荼蘼。温柔的一半是知识，没有涵养的温柔撑不起你要的风骨。心里眼里都是你，亿万星辰犹不及。我们终会上岸，无论去到哪里都是阳光灿烂，鲜花开放。光终究会撒在你身上，你也会灿烂一场。生活中的酸甜苦辣，记录着命运的轨迹，轨迹留下你的影子，在xx到来之际，送给你的祝愿最诚挚，衷心祝你大吉大利，顺心如意。只有尊重自己的人，才能够更勇于缩小自己，通过退让来成全别人，非愚即智。梦自己想梦的，做自己想做的，因为生命只有一次，机会不会再来。人生苦短，咱们何必计较得失，有爱就有梦。每个人都有一番不一样的经历，每个人都是一部新鲜的故事。懂得珍惜，风雨兼程的日子，有他有我也有你。​</p>]]></description>
+    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[ 首先]]></title>
+    <link>https://moomcakesleep.top/#/festival/2024/%e6%96%b0%e5%b9%b4%e5%bf%ab%e6%a8%82</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/festival/2024/%e6%96%b0%e5%b9%b4%e5%bf%ab%e6%a8%82</guid>
+    <description><![CDATA[<h2 id="首先">首先</h2>
+<p>新年的钟声已然敲响，新的一年已经到来，大家，新年快樂！！</p>
+<h2 id="祝福">祝福</h2>
+<p>moomcake在这裡祝大家新的一年里，身体健康，万事如意，阖家幸福，学生学业进步，上班族工作顺利，安居乐业，平平安安。</p>
+<h2 id="最后">最后</h2>
+<p>新年快乐！！</p>]]></description>
+    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[快乐]]></title>
+    <link>https://moomcakesleep.top/#/festival/2024/%e5%85%83%e6%97%a6%e5%bf%ab%e4%b9%90</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/festival/2024/%e5%85%83%e6%97%a6%e5%bf%ab%e4%b9%90</guid>
+    <description><![CDATA[<h1 id="元旦快乐">元旦快乐</h1>
+<p>嘿，这裡是moomcake，首先，各位元旦快乐！ <br> 又是一年过去了啊，时间过得真快啊(笑) <br> 祝大家在新的一年里健健康康，万事如意，团团圆圆，开开心心！</p>]]></description>
+    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[快乐 moomcake 🎉！]]></title>
+    <link>https://moomcakesleep.top/#/birthday/moomcake/2024.04.24/moomcake</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/moomcake/2024.04.24/moomcake</guid>
+    <description><![CDATA[<h1 id="生日快乐-moomcake">生日快乐 moomcake 🎉！</h1>
+<p><em>moomcakesleep 于二〇二四年三月十六(2024.04.24)发表</em></p>
+<h2 id="生日贺言">生日贺言</h2>
+<p>好，那么好，一年一度的生日又到啦，好耶！不知不觉也来到这个世上13年了欸（btw怎么感觉这句话怪怪的（）</p>
+<p>没甚么想要说的，那就祝我开开心心的，在接下来(4.28-4.30)的期中考试取得一个好成绩罢！</p>
+<h2 id="生日礼物">生日礼物</h2>
+<h3 id="我自己">我自己</h3>
+<p>等一下… …为什么我自己生日还要我自己给我自己准备生日礼物啊（</p>
+那我就勉为其难地准备一下罢（）
+<details>
+<summary>点我查看moomcake给自己准备的生日礼物</summary> 🎂<br> 啊没错，生日礼物就是赛博蛋糕！(经典再现（）<br> 开玩笑哒，好吧其实是我竭尽毕生之力（bushi）所写的应一个简陋的数字炸弹<br>
+<details>
+<summary>The Real Gift</summary> <a href="/birthday/moomcake/2024.04.24/gift/number_band.py">number_band.py(1.54KB)</a>
+</details>
+</details>]]></description>
+    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[快乐 bili_59208913059 🎉！]]></title>
+    <link>https://moomcakesleep.top/#/birthday/bili_59208913059/2023.08.14/bili_59208913059</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/bili_59208913059/2023.08.14/bili_59208913059</guid>
+    <description><![CDATA[<h1 id="生日快乐-bili_59208913059">生日快乐 bili_59208913059 🎉！</h1>
+<p><em>moomcake 于2023/8/14发表</em></p>
+<h2 id="生日贺言">生日贺言</h2>
+<p>今天是b站用户<a href="https://space.bilibili.com/1760074163">bili_59208913059</a>大神的生日，在生日到来之际，其它忘了，有他有我也有你。((((((((((((((((((</p>
+<p>开个玩笑，祝你在新的一岁里为身边的人发光发热，感染他人，变得更加好，身体健康，万事如意</p>
+<p>-moomcake</p>
+<h2 id="生日礼物">生日礼物</h2>
+<p>既然係生日咁就唔可能少咗生日礼物嘅喇</p>
+<p>(既然是生日那就不可能少了生日礼物的啦)</p>
+<p>では、Show the gift now!</p>
+<p>(那么，于此，将生日礼物展现在世人面前吧！)</p>
+<details>
+<summary>点我查看生日礼物</summary> 🎂<br> 啊没错，生日礼物就是赛博蛋糕！((((((((((<br> 开玩笑哒，生日礼物怎么可能只是一个emoji<br> 嗱，真正的礼物在下面<br>
+<details>
+<summary>The Real Gift</summary> <a href="/birthday/bili_59208913059/2023.08.14/gift/小遊戲.ppsx">小遊戲.ppsx(81KB)</a>
+</details>
+</details>]]></description>
+    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[  For Birthday]]></title>
+    <link>https://moomcakesleep.top/#/birthday/_sidebar</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/_sidebar</guid>
+    <description><![CDATA[<ul>
+<li><p>For Birthday</p>
+<ul>
+<li><p><a href="/birthday/">关于此页</a></p></li>
+<li><p><a href="/birthday/moomcake/2024.04.24/moomcake.md" title="生日快樂！moomcake">moomcake</a></p></li>
+<li><p><a href="/birthday/bili_59208913059/2023.08.14/bili_59208913059.md" title="生日快乐！bili_59208913059">bili_59208913059</a></p></li>
+</ul></li>
+<li><p><a href="/">回到首页</a></p></li>
+</ul>]]></description>
+    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[r Birthday]]></title>
+    <link>https://moomcakesleep.top/#/birthday/README</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/README</guid>
+    <description><![CDATA[<h1 id="for-birthday">For Birthday</h1>
+<p>这是moomcake用于庆祝朋友生日的地方awa</p>]]></description>
+    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
+  </item>
+  
+</channel>
+</rss>
