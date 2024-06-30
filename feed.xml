@@ -6,10 +6,30 @@
   <description>Welcome to moomcake's Website</description>
    
   <item>
+    <title><![CDATA[logo](/src/icon.svg)]]></title>
+    <link>https://moomcakesleep.top/#/_coverpage</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/_coverpage</guid>
+    <description><![CDATA[<figure>
+<img src="/src/icon.svg" alt="" /><figcaption>logo</figcaption>
+</figure>
+<h1 id="moomcakes-website1.0">moomcake’s Website<small>1.0</small></h1>
+<blockquote>
+<p>这里是moomcake的网站ww</p>
+</blockquote>
+<p><a href="https://github.com/moomcakesleep/moomcakesleep.github.io">GitHub</a> <a href="/README#moomcake39s-website">Get Started</a></p>
+<figure>
+<img src="#f0f0f0" alt="" /><figcaption>color</figcaption>
+</figure>]]></description>
+    <pubDate>Sun, 30 Jun 2024 17:17:39 +0800</pubDate>
+  </item>
+   
+  <item>
     <title><![CDATA[更新日志]]></title>
     <link>https://moomcakesleep.top/#/changelog</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/changelog</guid>
     <description><![CDATA[<h1 id="更新日志">更新日志</h1>
+<h2 id="年6月30日">2024年6月30日</h2>
+<p>初三的各位 <strong>中考加油</strong> ！<br> 以下为本次更新内容: 1. 你现在可通过RSS订阅 <a href="https://moomcakesleep.top/feed.xml">https://moomcakesleep.top/feed.xml</a> 以获取最新更新 2. 修复了一些小问题</p>
 <h2 id="年6月21日">2024年6月21日</h2>
 <p>改了一下评论通知的模板，来自 <strong><span class="citation" data-cites="SaraKale">@SaraKale</span></strong> 的博文<a href="https://www.sarakale.top/blog/posts/537344b2">waline 邮件通知模板一览</a></p>
 <h2 id="年6月20日">2024年6月20日</h2>
@@ -24,19 +44,13 @@
 <li>将封面和 <strong>README</strong> 分离了，感觉这样更好些</li>
 </ol>
 <h2 id="年6月9日">2024年6月9日</h2>
-<p>将所有使用 <a href="https://cdn.jsdelivr.net">cdn.jsdelivr.net</a> 的包改为使用 <a href="https://unpkg.com">unpkg.com</a></p>
-<p>讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的</p>
+<p>将所有使用 <a href="https://cdn.jsdelivr.net">cdn.jsdelivr.net</a> 的包改为使用 <a href="https://unpkg.com">unpkg.com</a><br> 讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的</p>
 <h2 id="年5月19日">2024年5月19日</h2>
-<p>时隔2个星期终于又更新了（鼓掌） 更新内容: 1. 删除了 <strong>birthday</strong> 分支，将原 <strong>birthday</strong> 分支下的 <strong>birthday</strong> 文件夹移动至 <strong>main</strong> 根目录 2. 新建 <strong>festival</strong> 文件夹与 <strong>festival/2024</strong> 文件夹，并将 <strong>元旦快乐.md</strong> 与 <strong>新年快樂.md</strong> 移动至 <strong>festival/2024</strong> 文件夹 3. 新建 <strong>rhythm_game</strong> (音游)文件夹，并将 <strong>音游圣经.md</strong> 移动至其中 4. 增加 LaTeX 支持 5. 添加侧边栏展开插件 6. 新建 <strong>math</strong> (数学文件夹)，并于其编辑 <strong>实数r的a次方根近似公式及推导过程.md</strong> 7. 其余一些小更新</p>
+<p>时隔2个星期终于又更新了（鼓掌）<br> 更新内容: 1. 删除了 <strong>birthday</strong> 分支，将原 <strong>birthday</strong> 分支下的 <strong>birthday</strong> 文件夹移动至 <strong>main</strong> 根目录 2. 新建 <strong>festival</strong> 文件夹与 <strong>festival/2024</strong> 文件夹，并将 <strong>元旦快乐.md</strong> 与 <strong>新年快樂.md</strong> 移动至 <strong>festival/2024</strong> 文件夹 3. 新建 <strong>rhythm_game</strong> (音游)文件夹，并将 <strong>音游圣经.md</strong> 移动至其中 4. 增加 LaTeX 支持 5. 添加侧边栏展开插件 6. 新建 <strong>math</strong> (数学文件夹)，并于其编辑 <strong>实数r的a次方根近似公式及推导过程.md</strong> 7. 其余一些小更新</p>
 <h2 id="年5月5日">2024年5月5日</h2>
-<p>你现在可通过访问 <a href="https://status.moomcakesleep.top">status.moomcakesleep.top</a> 来查看 moomcake’s Website 的服务器运行状态</p>
-<p>效果如下图</p>
-<figure>
-<img src="https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg" alt="" /><figcaption>Status</figcaption>
-</figure>
+<p>你现在可通过访问 <a href="https://status.moomcakesleep.top">status.moomcakesleep.top</a> 来查看 moomcake’s Website 的服务器运行状态<br> 效果如下图<br> <img src="https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg" alt="Status" /></p>
 <h2 id="年5月4日">2024年5月4日</h2>
-<p>将评论系统从 <a href="https://cusdis.com">Cusdis</a> 迁移至 <a href="https://waline.js.org">Waline</a></p>
-<p>将 pyrepl 部署至 <a href="https://vercel.com">Vercel</a>，添加自己的域名后使用<a href="https://www.cloudflare-cn.com/">Cloudflare</a>进行加速</p>
+<p>将评论系统从 <a href="https://cusdis.com">Cusdis</a> 迁移至 <a href="https://waline.js.org">Waline</a><br> 将 pyrepl 部署至 <a href="https://vercel.com">Vercel</a>，添加自己的域名后使用<a href="https://www.cloudflare-cn.com/">Cloudflare</a>进行加速</p>
 <h2 id="年5月3日">2024年5月3日</h2>
 <p>将购买的域名(moomcakesleep.top)(5月2号在 <a href="https://dynadot.com.cn">Dynadot</a> 买的)解析至本站，并使用 <a href="https://www.cloudflare-cn.com/">Cloudflare</a> 进行加速</p>
 <h2 id="年4月24日">2024年4月24日</h2>
@@ -58,25 +72,23 @@
 <h2 id="年8月14日">2023年8月14日</h2>
 <p>网站上线，并同时为同日生日的<a href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
 <p><em>注:2024年1月14日以前的因为时间跨度较大而导致时间可能稍有不准确，不过内容我还是准确的</em></p>]]></description>
-    <pubDate>Fri, 21 Jun 2024 22:53:26 +0800</pubDate>
+    <pubDate>Sun, 30 Jun 2024 17:15:11 +0800</pubDate>
   </item>
    
   <item>
-    <title><![CDATA[logo](/icon.svg)]]></title>
-    <link>https://moomcakesleep.top/#/_coverpage</link>
-    <guid isPermaLink="false">https://moomcakesleep.top/#/_coverpage</guid>
-    <description><![CDATA[<figure>
-<img src="/icon.svg" alt="" /><figcaption>logo</figcaption>
-</figure>
-<h1 id="moomcakes-website1.0">moomcake’s Website<small>1.0</small></h1>
+    <title><![CDATA[omcake's Website]]></title>
+    <link>https://moomcakesleep.top/#/README</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/README</guid>
+    <description><![CDATA[<h1 id="moomcakes-website">moomcake’s Website</h1>
 <blockquote>
-<p>这里是moomcake的网站ww</p>
+<p>欢迎来到moomcake’s Website!!!</p>
 </blockquote>
-<p><a href="https://github.com/moomcakesleep/moomcakesleep.github.io">GitHub</a> <a href="/README#moomcake39s-website">Get Started</a></p>
-<figure>
-<img src="#f0f0f0" alt="" /><figcaption>color</figcaption>
-</figure>]]></description>
-    <pubDate>Tue, 18 Jun 2024 20:44:24 +0800</pubDate>
+<h2 id="介绍">介绍</h2>
+<p>就如名字一般，这个网站是moomcake的个人网站，我通常会分享和一些东西和祝贺一些事情</p>
+<p>另外，这个网站有评论系统哦，欢迎来留言！</p>
+<h2 id="最后">最后</h2>
+<p>Have fun here~ (゜-゜)つロ</p>]]></description>
+    <pubDate>Sun, 30 Jun 2024 17:15:11 +0800</pubDate>
   </item>
    
   <item>
@@ -189,15 +201,6 @@
 </ul></li>
 <li><p><a href="/">回到首页</a></p></li>
 </ul>]]></description>
-    <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
-  </item>
-   
-  <item>
-    <title><![CDATA[r Birthday]]></title>
-    <link>https://moomcakesleep.top/#/birthday/README</link>
-    <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/README</guid>
-    <description><![CDATA[<h1 id="for-birthday">For Birthday</h1>
-<p>这是moomcake用于庆祝朋友生日的地方awa</p>]]></description>
     <pubDate>Sun, 19 May 2024 19:38:34 +0800</pubDate>
   </item>
   
