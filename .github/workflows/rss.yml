@@ -12,6 +12,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.head_ref }}
+          token: ${{ secrets.SECRET_PAT }}
 
       - name: Install Pandoc
         run:
