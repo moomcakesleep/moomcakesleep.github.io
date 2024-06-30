@@ -19,7 +19,6 @@ jobs:
 
       - name: Build RSS
         run: |
-          cd src
           chmod +x rss.sh
           ./rss.sh
 
