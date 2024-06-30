@@ -14,7 +14,7 @@
   <meta name="msvalidate.01" content="19A4CE4EDAB95C5485BB766F39F78B3A">
 
   <title>Welcome to moomcake's Website</title>
-  <link rel="icon" href="icon.svg">
+  <link rel="icon" href="src/icon.svg">
   <link rel="stylesheet" href="//unpkg.com/docsify@4/themes/vue.css"/>
   <link rel="stylesheet" href="//unpkg.com/docsify-sidebar-collapse/dist/sidebar.min.css"/>
   
@@ -40,10 +40,11 @@
       coverpage: true,
       onlyCover: true,
       subMaxLevel: 3,
-
+      auto2top: true,
+      
       //搜索
       search: {
-        paths: 'auto',
+        paths: [],
         placeholder:{
           '/':'搜索'		  
           },
@@ -84,7 +85,7 @@
   <!-- Offline Mode -->
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
-    navigator.serviceWorker.register('sw.js')
+    navigator.serviceWorker.register('src/sw.js')
   </script>
 
 </body>

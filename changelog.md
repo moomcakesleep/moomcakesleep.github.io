@@ -1,5 +1,12 @@
 # 更新日志
 
+## 2024年6月30日
+
+初三的各位 **中考加油** ！<br>
+以下为本次更新内容:
+1. 你现在可通过RSS订阅 [https://moomcakesleep.top/feed.xml](https://moomcakesleep.top/feed.xml) 以获取最新更新
+2. 修复了一些小问题
+
 ## 2024年6月21日
 
 改了一下评论通知的模板，来自 **@SaraKale** 的博文[waline 邮件通知模板一览](https://www.sarakale.top/blog/posts/537344b2)
@@ -17,13 +24,12 @@
 
 ## 2024年6月9日
 
-将所有使用 [cdn.jsdelivr.net](https://cdn.jsdelivr.net) 的包改为使用 [unpkg.com](https://unpkg.com)
-
+将所有使用 [cdn.jsdelivr.net](https://cdn.jsdelivr.net) 的包改为使用 [unpkg.com](https://unpkg.com)<br>
 讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的
 
 ## 2024年5月19日
 
-时隔2个星期终于又更新了（鼓掌）
+时隔2个星期终于又更新了（鼓掌）<br>
 更新内容:
 1. 删除了 **birthday** 分支，将原 **birthday** 分支下的 **birthday** 文件夹移动至 **main** 根目录
 2. 新建 **festival** 文件夹与 **festival/2024** 文件夹，并将 **元旦快乐.md** 与 **新年快樂.md** 移动至 **festival/2024** 文件夹
@@ -35,16 +41,13 @@
 
 ## 2024年5月5日
 
-你现在可通过访问 [status.moomcakesleep.top](https://status.moomcakesleep.top) 来查看 moomcake's Website 的服务器运行状态
-
-效果如下图
-
+你现在可通过访问 [status.moomcakesleep.top](https://status.moomcakesleep.top) 来查看 moomcake's Website 的服务器运行状态<br>
+效果如下图<br>
 ![Status](https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg)
 
 ## 2024年5月4日
 
-将评论系统从 [Cusdis](https://cusdis.com) 迁移至 [Waline](https://waline.js.org)
-
+将评论系统从 [Cusdis](https://cusdis.com) 迁移至 [Waline](https://waline.js.org)<br>
 将 pyrepl 部署至 [Vercel](https://vercel.com)，添加自己的域名后使用[Cloudflare](https://www.cloudflare-cn.com/)进行加速
 
 ## 2024年5月3日
