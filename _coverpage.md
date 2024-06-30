@@ -1,4 +1,4 @@
-![logo](/icon.svg)
+![logo](/src/icon.svg)
 
 # moomcake's Website<small>1.0</small>
 
