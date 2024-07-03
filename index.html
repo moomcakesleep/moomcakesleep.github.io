@@ -18,9 +18,12 @@
   <link rel="stylesheet" href="//unpkg.com/docsify@4/themes/vue.css"/>
   <link rel="stylesheet" href="//unpkg.com/docsify-sidebar-collapse/dist/sidebar.min.css"/>
   
+  <!-- SiteTime -->
+  <script src="/src/sitetime.js"></script>
+  
   <!-- MathJax -->
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://unpkg.com/mathjax@v3/es5/tex-svg.js"></script>
+  <script src="//polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="//unpkg.com/mathjax@v3/es5/tex-svg.js"></script>
   
   <!-- Waline -->
   <script src="//unpkg.com/@waline/client@v2/dist/waline.js"></script>
@@ -56,6 +59,13 @@
       count: {
         language: "chinese",
         },
+      //页脚
+      footer: {
+        copy: '<span id="sitetime"></span> <br/> <span>Copyright &copy; 2024 &nbsp &nbsp</span>',
+        auth: ' <strong><a href="https://github.com/moomcakesleep/moomcakesleep.github.io.git" target="_blank">moomcakesleep</a></strong>',
+        pre: '<hr/>',
+        style: 'text-align: center;',
+      },
 
       //Waline
       waline: {
@@ -79,6 +89,7 @@
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//unpkg.com/docsify-latex@0"></script>
   <script src="//unpkg.com/docsify/docsify-count/dist/countable.min.js"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <script src="//unpkg.com/docsify-waline@2/docsify-waline.min.js"></script>
 
   <!-- Offline Mode -->
