@@ -15,7 +15,7 @@ urlencode() {
 }
 
 newest_files=$( \
-  git ls-files -z '*.md' | \
+  git ls-files -z '*.md' --ignore --exclude='_*.md' --exclude='birthday/'| \
   xargs -0 -n1 -I{} -- git log -1 --format="%at {}" {} | \
   sort -r | \
   head -n10 | \
@@ -31,7 +31,7 @@ for file in ${newest_files[@]}; do
   date=$(git log -1 --format="%aD" -- $file)
   item="
   <item>
-    <title><![CDATA[${title}]]></title>
+    <title><![CDATA[${title:2}]]></title>
     <link>$link</link>
     <guid isPermaLink=\"false\">$link</guid>
     <description><![CDATA[$html]]></description>
