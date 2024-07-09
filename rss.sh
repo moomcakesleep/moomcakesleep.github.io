@@ -31,7 +31,7 @@ for file in ${newest_files[@]}; do
   date=$(git log -1 --format="%aD" -- $file)
   item="
   <item>
-    <title><![CDATA[${title:2}]]></title>
+    <title><![CDATA[${title}]]></title>
     <link>$link</link>
     <guid isPermaLink=\"false\">$link</guid>
     <description><![CDATA[$html]]></description>
