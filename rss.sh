@@ -15,7 +15,7 @@ urlencode() {
 }
 
 newest_files=$( \
-  git ls-files -z '*.md' --ignore --exclude='_*.md' --exclude='birthday/'| \
+  git ls-files -z '*.md' --ignore --exclude='_*' --exclude='birthday/'| \
   xargs -0 -n1 -I{} -- git log -1 --format="%at {}" {} | \
   sort -r | \
   head -n10 | \
