@@ -6,7 +6,7 @@
   <description>Welcome to moomcake's Website</description>
    
   <item>
-    <title><![CDATA[更新日志]]></title>
+    <title><![CDATA[# 更新日志]]></title>
     <link>https://moomcakesleep.top/#/changelog</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/changelog</guid>
     <description><![CDATA[<h1 id="更新日志">更新日志</h1>
@@ -60,7 +60,7 @@
   </item>
    
   <item>
-    <title><![CDATA[logo](/src/icon.svg)]]></title>
+    <title><![CDATA[![logo](/src/icon.svg)]]></title>
     <link>https://moomcakesleep.top/#/_coverpage</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/_coverpage</guid>
     <description><![CDATA[<figure>
@@ -78,7 +78,7 @@
   </item>
    
   <item>
-    <title><![CDATA[omcake's Website]]></title>
+    <title><![CDATA[moomcake's Website]]></title>
     <link>https://moomcakesleep.top/#/README</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/README</guid>
     <description><![CDATA[<h1 id="moomcakes-website">moomcake’s Website</h1>
@@ -94,7 +94,7 @@
   </item>
    
   <item>
-    <title><![CDATA[实数r的a次方根近似公式及推导过程]]></title>
+    <title><![CDATA[# 实数r的a次方根近似公式及推导过程]]></title>
     <link>https://moomcakesleep.top/#/math/%e5%ae%9e%e6%95%b0r%e7%9a%84a%e6%ac%a1%e6%96%b9%e6%a0%b9%e8%bf%91%e4%bc%bc%e5%85%ac%e5%bc%8f%e5%8f%8a%e6%8e%a8%e5%af%bc%e8%bf%87%e7%a8%8b</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/math/%e5%ae%9e%e6%95%b0r%e7%9a%84a%e6%ac%a1%e6%96%b9%e6%a0%b9%e8%bf%91%e4%bc%bc%e5%85%ac%e5%bc%8f%e5%8f%8a%e6%8e%a8%e5%af%bc%e8%bf%87%e7%a8%8b</guid>
     <description><![CDATA[<h1 id="实数r的a次方根近似公式及推导过程">实数r的a次方根近似公式及推导过程</h1>
@@ -113,7 +113,7 @@
   </item>
    
   <item>
-    <title><![CDATA[圣经]]></title>
+    <title><![CDATA[音游圣经]]></title>
     <link>https://moomcakesleep.top/#/rhythm_game/%e9%9f%b3%e6%b8%b8%e5%9c%a3%e7%bb%8f</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/rhythm_game/%e9%9f%b3%e6%b8%b8%e5%9c%a3%e7%bb%8f</guid>
     <description><![CDATA[<h1 id="音游圣经">音游圣经</h1>
@@ -123,7 +123,7 @@
   </item>
    
   <item>
-    <title><![CDATA[ 首先]]></title>
+    <title><![CDATA[## 首先]]></title>
     <link>https://moomcakesleep.top/#/festival/2024/%e6%96%b0%e5%b9%b4%e5%bf%ab%e6%a8%82</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/festival/2024/%e6%96%b0%e5%b9%b4%e5%bf%ab%e6%a8%82</guid>
     <description><![CDATA[<h2 id="首先">首先</h2>
@@ -136,7 +136,7 @@
   </item>
    
   <item>
-    <title><![CDATA[快乐]]></title>
+    <title><![CDATA[元旦快乐]]></title>
     <link>https://moomcakesleep.top/#/festival/2024/%e5%85%83%e6%97%a6%e5%bf%ab%e4%b9%90</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/festival/2024/%e5%85%83%e6%97%a6%e5%bf%ab%e4%b9%90</guid>
     <description><![CDATA[<h1 id="元旦快乐">元旦快乐</h1>
@@ -145,7 +145,7 @@
   </item>
    
   <item>
-    <title><![CDATA[快乐 moomcake 🎉！]]></title>
+    <title><![CDATA[生日快乐 moomcake 🎉！]]></title>
     <link>https://moomcakesleep.top/#/birthday/moomcake/2024.04.24/moomcake</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/moomcake/2024.04.24/moomcake</guid>
     <description><![CDATA[<h1 id="生日快乐-moomcake">生日快乐 moomcake 🎉！</h1>
@@ -167,7 +167,7 @@
   </item>
    
   <item>
-    <title><![CDATA[快乐 bili_59208913059 🎉！]]></title>
+    <title><![CDATA[生日快乐 bili_59208913059 🎉！]]></title>
     <link>https://moomcakesleep.top/#/birthday/bili_59208913059/2023.08.14/bili_59208913059</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/bili_59208913059/2023.08.14/bili_59208913059</guid>
     <description><![CDATA[<h1 id="生日快乐-bili_59208913059">生日快乐 bili_59208913059 🎉！</h1>
@@ -191,7 +191,7 @@
   </item>
    
   <item>
-    <title><![CDATA[  For Birthday]]></title>
+    <title><![CDATA[-   For Birthday]]></title>
     <link>https://moomcakesleep.top/#/birthday/_sidebar</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/birthday/_sidebar</guid>
     <description><![CDATA[<ul>
