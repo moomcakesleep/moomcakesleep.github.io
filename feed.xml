@@ -6,6 +6,66 @@
   <description>Welcome to moomcake's Website</description>
    
   <item>
+    <title><![CDATA[更新日志]]></title>
+    <link>https://moomcakesleep.top/#/changelog</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/changelog</guid>
+    <description><![CDATA[<h1 id="更新日志">更新日志</h1>
+<h2 id="年7月29日">2024年7月29日</h2>
+<ol type="1">
+<li>本站自 moomcakesleep.top 重定向至 <a href="https://yuecake.top">yuecake.top</a></li>
+<li>新增 <strong>Netlify</strong> 分站 <a href="https://yuecake.netlify.app">yuecake.netlify.app</a></li>
+<li>新增导航栏：站点，小工具，RSS；小工具删除了Python解释器并添加了短链接工具，不再显示在侧边栏</li>
+</ol>
+<h2 id="年7月3日">2024年7月3日</h2>
+<p>添加了页脚及已运行时间</p>
+<h2 id="年6月30日">2024年6月30日</h2>
+<p>初三的各位 <strong>中考加油</strong> ！<br> 以下为本次更新内容: 1. 你现在可通过RSS订阅 <a href="https://moomcakesleep.top/feed.xml">https://moomcakesleep.top/feed.xml</a> 以获取最新更新 2. 修复了一些小问题</p>
+<h2 id="年6月21日">2024年6月21日</h2>
+<p>改了一下评论通知的模板，来自 <strong><span class="citation" data-cites="SaraKale">@SaraKale</span></strong> 的博文<a href="https://www.sarakale.top/blog/posts/537344b2">waline 邮件通知模板一览</a></p>
+<h2 id="年6月20日">2024年6月20日</h2>
+<ol type="1">
+<li>更新了评论系统。现在，如果您在评论时输入了邮箱，那么被回复后将会在邮箱进行通知；另外，你现在还可以注册账号，更方便地发布评论</li>
+<li>修复了一些小问题</li>
+</ol>
+<h2 id="年6月18日">2024年6月18日</h2>
+<ol type="1">
+<li>不再使用 <strong>KaTeX</strong> 进行 <strong>LaTeX</strong> 渲染，改为使用 <strong>MathJax</strong></li>
+<li>免费图床 <a href="https://www.imgtp.com">imgtp.com</a> 似了，所以自己用 <strong>Cloudflare Pages</strong> + <strong>Telegraph</strong> 搭了一个 <a href="https://img.moomcakesleep.top/">点我查看</a>，感谢 <strong><span class="citation" data-cites="cf-pages">@cf-pages</span></strong> 大佬的 <a href="https://github.com/cf-pages/Telegraph-Image">Telegraph-Image</a> 项目，同时感谢我的同学(自称 <strong>Moriarty</strong> 之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)</li>
+<li>将封面和 <strong>README</strong> 分离了，感觉这样更好些</li>
+</ol>
+<h2 id="年6月9日">2024年6月9日</h2>
+<p>将所有使用 <a href="https://cdn.jsdelivr.net">cdn.jsdelivr.net</a> 的包改为使用 <a href="https://unpkg.com">unpkg.com</a><br> 讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的</p>
+<h2 id="年5月19日">2024年5月19日</h2>
+<p>时隔2个星期终于又更新了（鼓掌）<br> 更新内容: 1. 删除了 <strong>birthday</strong> 分支，将原 <strong>birthday</strong> 分支下的 <strong>birthday</strong> 文件夹移动至 <strong>main</strong> 根目录 2. 新建 <strong>festival</strong> 文件夹与 <strong>festival/2024</strong> 文件夹，并将 <strong>元旦快乐.md</strong> 与 <strong>新年快樂.md</strong> 移动至 <strong>festival/2024</strong> 文件夹 3. 新建 <strong>rhythm_game</strong> (音游)文件夹，并将 <strong>音游圣经.md</strong> 移动至其中 4. 增加 LaTeX 支持 5. 添加侧边栏展开插件 6. 新建 <strong>math</strong> (数学文件夹)，并于其编辑 <strong>实数r的a次方根近似公式及推导过程.md</strong> 7. 其余一些小更新</p>
+<h2 id="年5月5日">2024年5月5日</h2>
+<p>你现在可通过访问 <del><a href="https://status.moomcakesleep.top">status.moomcakesleep.top</a></del> 现已重定向至 <a href="https://status.yuecake.top">status.yuecake.top</a> 来查看 moomcake’s Website 的服务器运行状态<br> 效果如下图<br> <img src="https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg" alt="Status" /></p>
+<h2 id="年5月4日">2024年5月4日</h2>
+<p>将评论系统从 <a href="https://cusdis.com">Cusdis</a> 迁移至 <a href="https://waline.js.org">Waline</a><br> 将 pyrepl 部署至 <a href="https://vercel.com">Vercel</a>，添加自己的域名后使用<a href="https://www.cloudflare-cn.com/">Cloudflare</a>进行加速</p>
+<h2 id="年5月3日">2024年5月3日</h2>
+<p>将购买的域名(moomcakesleep.top)(5月2号在 <a href="https://dynadot.com.cn">Dynadot</a> 买的)解析至本站，并使用 <a href="https://www.cloudflare-cn.com/">Cloudflare</a> 进行加速</p>
+<h2 id="年4月24日">2024年4月24日</h2>
+<p>moomcake生日快樂！</p>
+<h2 id="年4月22日">2024年4月22日</h2>
+<p>删除了 <strong>weird</strong> 文件夹，将 <strong>音游圣经</strong> 重移回根目录，添加 Pyrepl 快速跳转链接</p>
+<h2 id="年2月10日">2024年2月10日</h2>
+<p>各位新年快樂！</p>
+<h2 id="年2月1日">2024年2月1日</h2>
+<p>增加了离线模式<br> 另外如果不是较大地更新以后都不在这裡写了</p>
+<h2 id="年1月16日">2024年1月16日</h2>
+<p>改好了</p>
+<h2 id="年1月14日">2024年1月14日</h2>
+<p>更新了内容，包括：更改首页，删除 Hello,World ，建立奇奇怪怪的东西目录并将音游圣经移动至内部以及，写了这个更新日志</p>
+<h2 id="年1月1日">2024年1月1日</h2>
+<p>庆祝新年快乐</p>
+<h2 id="年8月15日">2023年8月15日</h2>
+<p>给庆祝生日的单独建立了一个分支(birthday)</p>
+<h2 id="年8月14日">2023年8月14日</h2>
+<p>网站上线，并同时为同日生日的<a href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
+<p><em>注:2024年1月14日以前的因为时间跨度较大而导致时间可能稍有不准确，不过内容我还是准确的</em></p>]]></description>
+    <pubDate>Mon, 29 Jul 2024 20:00:16 +0800</pubDate>
+  </item>
+   
+  <item>
     <title><![CDATA[moomcake's Website]]></title>
     <link>https://moomcakesleep.top/#/README</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/README</guid>
@@ -38,60 +98,6 @@
     <description><![CDATA[<h1 id="元旦快乐">元旦快乐</h1>
 <p>嘿，这裡是moomcake，首先，各位元旦快乐！ <br> 又是一年过去了啊，时间过得真快啊(笑) <br> 祝大家在新的一年里健健康康，万事如意，团团圆圆，开开心心！</p>]]></description>
     <pubDate>Tue, 9 Jul 2024 13:38:34 +0800</pubDate>
-  </item>
-   
-  <item>
-    <title><![CDATA[更新日志]]></title>
-    <link>https://moomcakesleep.top/#/changelog</link>
-    <guid isPermaLink="false">https://moomcakesleep.top/#/changelog</guid>
-    <description><![CDATA[<h1 id="更新日志">更新日志</h1>
-<h2 id="年7月3日">2024年7月3日</h2>
-<p>添加了页脚及已运行时间</p>
-<h2 id="年6月30日">2024年6月30日</h2>
-<p>初三的各位 <strong>中考加油</strong> ！<br> 以下为本次更新内容: 1. 你现在可通过RSS订阅 <a href="https://moomcakesleep.top/feed.xml">https://moomcakesleep.top/feed.xml</a> 以获取最新更新 2. 修复了一些小问题</p>
-<h2 id="年6月21日">2024年6月21日</h2>
-<p>改了一下评论通知的模板，来自 <strong><span class="citation" data-cites="SaraKale">@SaraKale</span></strong> 的博文<a href="https://www.sarakale.top/blog/posts/537344b2">waline 邮件通知模板一览</a></p>
-<h2 id="年6月20日">2024年6月20日</h2>
-<ol type="1">
-<li>更新了评论系统。现在，如果您在评论时输入了邮箱，那么被回复后将会在邮箱进行通知；另外，你现在还可以注册账号，更方便地发布评论</li>
-<li>修复了一些小问题</li>
-</ol>
-<h2 id="年6月18日">2024年6月18日</h2>
-<ol type="1">
-<li>不再使用 <strong>KaTeX</strong> 进行 <strong>LaTeX</strong> 渲染，改为使用 <strong>MathJax</strong></li>
-<li>免费图床 <a href="https://www.imgtp.com">imgtp.com</a> 似了，所以自己用 <strong>Cloudflare Pages</strong> + <strong>Telegraph</strong> 搭了一个<a href="https://img.moomcakesleep.top/">点我查看</a>，感谢 <strong><span class="citation" data-cites="cf-pages">@cf-pages</span></strong> 大佬的 <a href="https://github.com/cf-pages/Telegraph-Image">Telegraph-Image</a> 项目，同时感谢我的同学(自称 <strong>Moriarty</strong> 之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)</li>
-<li>将封面和 <strong>README</strong> 分离了，感觉这样更好些</li>
-</ol>
-<h2 id="年6月9日">2024年6月9日</h2>
-<p>将所有使用 <a href="https://cdn.jsdelivr.net">cdn.jsdelivr.net</a> 的包改为使用 <a href="https://unpkg.com">unpkg.com</a><br> 讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的</p>
-<h2 id="年5月19日">2024年5月19日</h2>
-<p>时隔2个星期终于又更新了（鼓掌）<br> 更新内容: 1. 删除了 <strong>birthday</strong> 分支，将原 <strong>birthday</strong> 分支下的 <strong>birthday</strong> 文件夹移动至 <strong>main</strong> 根目录 2. 新建 <strong>festival</strong> 文件夹与 <strong>festival/2024</strong> 文件夹，并将 <strong>元旦快乐.md</strong> 与 <strong>新年快樂.md</strong> 移动至 <strong>festival/2024</strong> 文件夹 3. 新建 <strong>rhythm_game</strong> (音游)文件夹，并将 <strong>音游圣经.md</strong> 移动至其中 4. 增加 LaTeX 支持 5. 添加侧边栏展开插件 6. 新建 <strong>math</strong> (数学文件夹)，并于其编辑 <strong>实数r的a次方根近似公式及推导过程.md</strong> 7. 其余一些小更新</p>
-<h2 id="年5月5日">2024年5月5日</h2>
-<p>你现在可通过访问 <a href="https://status.moomcakesleep.top">status.moomcakesleep.top</a> 来查看 moomcake’s Website 的服务器运行状态<br> 效果如下图<br> <img src="https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg" alt="Status" /></p>
-<h2 id="年5月4日">2024年5月4日</h2>
-<p>将评论系统从 <a href="https://cusdis.com">Cusdis</a> 迁移至 <a href="https://waline.js.org">Waline</a><br> 将 pyrepl 部署至 <a href="https://vercel.com">Vercel</a>，添加自己的域名后使用<a href="https://www.cloudflare-cn.com/">Cloudflare</a>进行加速</p>
-<h2 id="年5月3日">2024年5月3日</h2>
-<p>将购买的域名(moomcakesleep.top)(5月2号在 <a href="https://dynadot.com.cn">Dynadot</a> 买的)解析至本站，并使用 <a href="https://www.cloudflare-cn.com/">Cloudflare</a> 进行加速</p>
-<h2 id="年4月24日">2024年4月24日</h2>
-<p>moomcake生日快樂！</p>
-<h2 id="年4月22日">2024年4月22日</h2>
-<p>删除了 <strong>weird</strong> 文件夹，将 <strong>音游圣经</strong> 重移回根目录，添加 Pyrepl 快速跳转链接</p>
-<h2 id="年2月10日">2024年2月10日</h2>
-<p>各位新年快樂！</p>
-<h2 id="年2月1日">2024年2月1日</h2>
-<p>增加了离线模式<br> 另外如果不是较大地更新以后都不在这裡写了</p>
-<h2 id="年1月16日">2024年1月16日</h2>
-<p>改好了</p>
-<h2 id="年1月14日">2024年1月14日</h2>
-<p>更新了内容，包括：更改首页，删除 Hello,World ，建立奇奇怪怪的东西目录并将音游圣经移动至内部以及，写了这个更新日志</p>
-<h2 id="年1月1日">2024年1月1日</h2>
-<p>庆祝新年快乐</p>
-<h2 id="年8月15日">2023年8月15日</h2>
-<p>给庆祝生日的单独建立了一个分支(birthday)</p>
-<h2 id="年8月14日">2023年8月14日</h2>
-<p>网站上线，并同时为同日生日的<a href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
-<p><em>注:2024年1月14日以前的因为时间跨度较大而导致时间可能稍有不准确，不过内容我还是准确的</em></p>]]></description>
-    <pubDate>Wed, 3 Jul 2024 21:25:36 +0800</pubDate>
   </item>
    
   <item>
