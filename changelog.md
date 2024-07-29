@@ -1,5 +1,11 @@
 # 更新日志
 
+## 2024年7月29日
+
+1. 本站自 moomcakesleep.top 重定向至 [yuecake.top](https://yuecake.top)
+2. 新增 **Netlify** 分站 [yuecake.netlify.app](https://yuecake.netlify.app)
+3. 新增导航栏：站点，小工具，RSS；小工具删除了Python解释器并添加了短链接工具，不再显示在侧边栏
+
 ## 2024年7月3日
 
 添加了页脚及已运行时间
@@ -23,7 +29,7 @@
 ## 2024年6月18日
 
 1. 不再使用 **KaTeX** 进行 **LaTeX** 渲染，改为使用 **MathJax**
-2. 免费图床 [imgtp.com](https://www.imgtp.com) 似了，所以自己用 **Cloudflare Pages** + **Telegraph** 搭了一个[点我查看](https://img.moomcakesleep.top/)，感谢 **@cf-pages** 大佬的 [Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) 项目，同时感谢我的同学(自称 **Moriarty** 之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)
+2. 免费图床 [imgtp.com](https://www.imgtp.com) 似了，所以自己用 **Cloudflare Pages** + **Telegraph** 搭了一个 [点我查看](https://img.moomcakesleep.top/)，感谢 **@cf-pages** 大佬的 [Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) 项目，同时感谢我的同学(自称 **Moriarty** 之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)
 3. 将封面和 **README** 分离了，感觉这样更好些
 
 ## 2024年6月9日
@@ -45,7 +51,7 @@
 
 ## 2024年5月5日
 
-你现在可通过访问 [status.moomcakesleep.top](https://status.moomcakesleep.top) 来查看 moomcake's Website 的服务器运行状态<br>
+你现在可通过访问 ~~[status.moomcakesleep.top](https://status.moomcakesleep.top)~~ 现已重定向至 [status.yuecake.top](https://status.yuecake.top) 来查看 moomcake's Website 的服务器运行状态<br>
 效果如下图<br>
 ![Status](https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg)
 
