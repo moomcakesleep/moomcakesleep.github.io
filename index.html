@@ -29,6 +29,28 @@
   <script src="//unpkg.com/@waline/client@v2/dist/waline.js"></script>
   <link rel="stylesheet" href="//unpkg.com/@waline/client@v2/dist/waline.css"/>
   
+  <!-- APlayer -->
+  <link rel="stylesheet" href="//unpkg.com/aplayer/dist/APlayer.min.css">
+  <script src="//unpkg.com/aplayer/dist/APlayer.min.js"></script>
+
+  <style>
+    /* Docsify Sideba */
+    .sidebar-toggle {
+      left: 16px;
+    }
+    
+    /* fixed APlayer */
+    .aplayer-fixed,
+    .aplayer-body {
+      left: -66px !important;
+    }
+
+    .aplayer-fixed:hover,
+    .aplayer-body:hover {
+      left: 0px !important;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -78,21 +100,35 @@
           '//unpkg.com/@waline/emojis@1.2.0/tw-emoji'
           ],
         },
+      
+      //MetingAPI
+      MetingAPI: {
+        api: 'https://api.i-meto.com/meting/api',
+        order: 'list',
+        autoplay: false,
+        playlists: [
+          { server: 'netease', type: 'playlist', id: '9454931079' },
+          ],
+        },
       };
   </script>
 
   <!-- Docsify v4 -->
-  <script src="//unpkg.com/docsify@4.13.1/lib/docsify.js"></script>
+  <script src="//unpkg.com/docsify@4.13.1/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   
   <!-- Plugins -->
-  <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//unpkg.com/docsify-latex@0"></script>
   <script src="//unpkg.com/docsify/docsify-count/dist/countable.min.js"></script>
+  <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <script src="//unpkg.com/docsify-waline@2/docsify-waline.min.js"></script>
-
+  <script type="text/javascript" src="//unpkg.com/docsify-plugin-meting-api/dist/docsify-plugin-meting-api.min.js"></script>
+  
+  <!-- required axios -->
+  <script type="text/javascript" src="//unpkg.com/axios/dist/axios.min.js"></script>
+  
   <!-- Offline Mode -->
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {

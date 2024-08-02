@@ -1,4 +1,8 @@
 <!-- _navbar.md -->
+* **分类**
+    * [音游](/tag/rhythm_game.md)
+    * [数学](/tag/math.md)
+
 * **站点**
     * [Vercel 主站](https://yuecake.top)
     * [Netlify 分站](https://yuecake.netlify.app)

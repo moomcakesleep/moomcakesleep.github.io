@@ -15,7 +15,7 @@ urlencode() {
 }
 
 newest_files=$( \
-  git ls-files -z '*.md' '*rhythm_game/*' ':!birthday/' ':!*_c*.md' ':!*_n*.md' ':!*_s*.md'| \
+  git ls-files -z '*.md' ':!birthday/' ':!*_c*.md' ':!*_n*.md' ':!*_s*.md' ':!tag/*'| \
   xargs -0 -n1 -I{} -- git log -1 --format="%at {}" {} | \
   sort -r | \
   head -n10 | \
