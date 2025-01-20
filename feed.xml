@@ -6,10 +6,121 @@
   <description>Welcome to moomcake's Website</description>
    
   <item>
+    <title><![CDATA[构建一个实数a的算数平方根的无限连分数的方法]]></title>
+    <link>https://moomcakesleep.top/#/math/%e6%9e%84%e5%bb%ba%e4%b8%80%e4%b8%aa%e6%95%b0%e7%9a%84%e7%ae%97%e6%95%b0%e5%b9%b3%e6%96%b9%e6%a0%b9%e7%9a%84%e6%97%a0%e9%99%90%e8%bf%9e%e5%88%86%e6%95%b0%e7%9a%84%e6%96%b9%e6%b3%95</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/math/%e6%9e%84%e5%bb%ba%e4%b8%80%e4%b8%aa%e6%95%b0%e7%9a%84%e7%ae%97%e6%95%b0%e5%b9%b3%e6%96%b9%e6%a0%b9%e7%9a%84%e6%97%a0%e9%99%90%e8%bf%9e%e5%88%86%e6%95%b0%e7%9a%84%e6%96%b9%e6%b3%95</guid>
+    <description><![CDATA[<h1
+id="构建一个实数a的算数平方根的无限连分数的方法">构建一个实数a的算数平方根的无限连分数的方法</h1>
+<h2 id="连分数">连分数</h2>
+<p>!&gt; 以下摘自<a
+href="https://oi-wiki.org/math/number-theory/continued-fraction/">连分数
+- OI Wiki</a></p>
+<p>连分数
+是实数作为有理数的特定收敛序列的表示。它们在算法竞赛（competitive
+programming）中很有用，因为它们易于计算，并且可以有效地用于在分母不超过给定值的所有数字中，找到基础实数（underlying
+real number）的最佳可能有理近似（best possible rational
+approximation）。</p>
+<p>除此之外，连分数与欧几里得算法密切相关，这使得它们在一系列数论问题中非常有用。</p>
+<h3 id="定义">定义</h3>
+<p>连分数是一种记号。例如，长为 <span class="math inline">4</span>
+的连分数： <span
+class="math display">$$[a_0,a_1,a_2,a_3]=a_0+\frac{1}{a_1+\frac{1}{a_2+\frac{1}{a_3}}}$$</span>
+只是为了形式上简洁，才记成等号左边的样子。这里的四个变元可以任意取值。</p>
+<p>连分数各变元的下标从 <span class="math inline">0</span> 开始。</p>
+<h3 id="无限连分数">无限连分数</h3>
+<p>如果分式无限地写下去，有无限个变元，就得到无限连分数。无限连分数收敛等价于渐进分数收敛。</p>
+<p>有定理：</p>
+<p>无限连分数，如果各变元均大于等于 1，那么一定收敛。</p>
+<p>因为只要各变元为正，无限连分数的偶渐进分数单调递增（都比它小），奇渐进分数单调递减（都比它大）。而在均大于等于
+1 时，相邻（奇偶间）两个渐进分数之间距离可以给出估计式，趋于
+0，因此收敛。</p>
+<p>显然可以看到，连分数关于下标为偶数的变元单调递增，关于下标为奇数的变元单调递减。这无论它有限或无限都成立。</p>
+<h4 id="定义-1">定义</h4>
+<p>设 <span
+class="math inline"><em>a</em><sub>0</sub>, <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub>, …</span>
+为整数序列，使得 <span
+class="math inline"><em>a</em><sub>1</sub>, <em>a</em><sub>2</sub>, … ≥ 1</span>。设
+<span
+class="math inline"><em>r</em><sub><em>k</em></sub> = [<em>a</em><sub>0</sub>;<em>a</em><sub>1</sub>,…,<em>a</em><sub><em>k</em></sub>]</span>。然后表达式
+<span class="math display">$$r = a_0 + \frac{1}{a_1 +
+\frac{1}{a_2+\dots}} = \lim\limits_{k \to \infty} r_k$$</span>
+称为无理数 r 的 连分数表示，并简短地表示为 r = [a_0;a_1,a_2,]。</p>
+<p>注意，对于 <span
+class="math inline"><em>r</em> = [<em>a</em><sub>0</sub>;<em>a</em><sub>1</sub>,…]</span>
+和整数 k，有 <span
+class="math inline"><em>r</em> + <em>k</em> = [<em>a</em><sub>0</sub>+<em>k</em>;<em>a</em><sub>1</sub>,…]</span>。</p>
+<p>另一个重要的观察结果是，当 <span
+class="math inline"><em>a</em><sub>0</sub> &gt; 0</span> 时，</p>
+<p><span class="math inline">$\frac{1}{r}=[0;a_0, a_1,
+\dots]$</span>；当 <span
+class="math inline"><em>a</em><sub>1</sub>＝0</span> 时，</p>
+<p><span class="math inline">$\frac{1}{r} = [a_1; a_2,
+\dots]$</span>。</p>
+<h2 id="方法">方法</h2>
+<p>经过上面的介绍，相信你对连分数以及无限连分数也有了一定的认识，那么回到主题：如何构建一个实数a的算数平方根的无限连分数呢？
+1. 构建一个方程<span
+class="math inline"><em>x</em><sup>2</sup> − <em>a</em> = 0</span>，且<span
+class="math inline">$\sqrt{a}$</span>是它的正实数根 2.
+将这个方程变形为<span
+class="math inline"><em>x</em><sup>2</sup> − 1 = <em>a</em> − 1</span>的形式
+3. 左边使用平方差公式变为<span
+class="math inline">(<em>x</em>−1)(<em>x</em>+1)</span>，则有<span
+class="math display">(<em>x</em>−1)(<em>x</em>+1) = <em>a</em> − 1</span>
+4. 将<span
+class="math inline">(<em>x</em>+1)</span>移至方程右边，则有<span
+class="math display">$$x-1=\frac{a-1}{x+1}$$</span> 5. 最后将<span
+class="math inline">1</span>移至方程右边，得到，<span
+class="math display">$$x=1+\frac{a-1}{x+1}$$</span>将右边的x反复迭代，便可得到<span
+class="math display">$$\begin{equation}
+  x = 1 + \cfrac{a-1}{1
+          + \cfrac{a-1}{1
+          + \cfrac{a-1}{ 1 + \cfrac{a-1}{\ddots} } } }
+\end{equation}$$</span>
+这便是一个实数a的算数平方根的无限连分数形式了</p>]]></description>
+    <pubDate>Mon, 20 Jan 2025 21:14:10 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[友情链接~]]></title>
+    <link>https://moomcakesleep.top/#/friends</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/friends</guid>
+    <description><![CDATA[<h1 id="友情链接">友情链接~</h1>
+<blockquote>
+<p>moomcake乐于且想要与各位结交朋友</p>
+</blockquote>
+<h2 id="我的朋友们">我的朋友们</h2>
+<p>现在这里空无一人呢… …</p>
+<h2 id="添加友链">添加友链</h2>
+<p>如果您想与 moomcake’s Website
+添加友链，请按照以下格式在评论区留言或发送邮件至
+mooncake13151514@outlook.fr，我会不定期查看并添加你的网站然后回复你(如果你没有分站点，网络地址便只提供一个便好)</p>
+<p>同时，这也是我的网站信息，请在我回复后尽快(最迟7天)添加(网站地址可任选其一)</p>
+<pre class="text"><code>我的网站: moomcake&#39;s Website
+头像链接: https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=512
+网站地址: (Vercel主) https://yuecake.top/
+(Netlify) https://yuecake.netlify.app/
+(Github Pages) https://moomcakesleep.github.io/
+博客简介: 名为moomcake的生物的栖息地...爱好数学、编程、电音</code></pre>
+<p>这是样式预览(请原谅我本人技艺不高，暂时只能这么简陋)</p>
+<p><a href="https://yuecake.top/"><img
+src="https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=64"
+alt="moomcake’s Website" /></a><br> 网站名称: moomcake’s Website<br>
+博客简介: 名为moomcake的生物的栖息地…爱好数学、编程、电音</p>
+<p>另外，虽然暂时每什么要求，但触犯了我个人的某些底线我还是会撤掉的，这是原则</p>]]></description>
+    <pubDate>Mon, 20 Jan 2025 21:14:10 +0800</pubDate>
+  </item>
+   
+  <item>
     <title><![CDATA[更新日志]]></title>
     <link>https://moomcakesleep.top/#/changelog</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/changelog</guid>
     <description><![CDATA[<h1 id="更新日志">更新日志</h1>
+<h2 id="年1月20日">2025年1月20日</h2>
+<p>首先很高兴 yuecake.top 这个域名历经5个月之久终于解除 hold
+状态，得以恢复正常使用🎉以下是更新内容</p>
+<ol type="1">
+<li>添加了友链页面</li>
+</ol>
 <h2 id="年8月3日">2024年8月3日</h2>
 <ol type="1">
 <li>将文章分类从侧边栏移动至导航栏</li>
@@ -18,16 +129,24 @@
 </ol>
 <h2 id="年7月29日">2024年7月29日</h2>
 <ol type="1">
-<li>本站自 moomcakesleep.top 重定向至 <a href="https://yuecake.top">yuecake.top</a></li>
-<li>新增 <strong>Netlify</strong> 分站 <a href="https://yuecake.netlify.app">yuecake.netlify.app</a></li>
+<li>本站自 moomcakesleep.top 重定向至 <a
+href="https://yuecake.top">yuecake.top</a></li>
+<li>新增 <strong>Netlify</strong> 分站 <a
+href="https://yuecake.netlify.app">yuecake.netlify.app</a></li>
 <li>新增导航栏：站点，小工具，RSS；小工具删除了Python解释器并添加了短链接工具，不再显示在侧边栏</li>
 </ol>
 <h2 id="年7月3日">2024年7月3日</h2>
 <p>添加了页脚及已运行时间</p>
 <h2 id="年6月30日">2024年6月30日</h2>
-<p>初三的各位 <strong>中考加油</strong> ！<br> 以下为本次更新内容: 1. 你现在可通过RSS订阅 <a href="https://moomcakesleep.top/feed.xml">https://moomcakesleep.top/feed.xml</a> 以获取最新更新 2. 修复了一些小问题</p>
+<p>初三的各位 <strong>中考加油</strong> ！<br> 以下为本次更新内容: 1.
+你现在可通过RSS订阅 <a
+href="https://moomcakesleep.top/feed.xml">https://moomcakesleep.top/feed.xml</a>
+以获取最新更新 2. 修复了一些小问题</p>
 <h2 id="年6月21日">2024年6月21日</h2>
-<p>改了一下评论通知的模板，来自 <strong><span class="citation" data-cites="SaraKale">@SaraKale</span></strong> 的博文<a href="https://www.sarakale.top/blog/posts/537344b2">waline 邮件通知模板一览</a></p>
+<p>改了一下评论通知的模板，来自 <strong><span class="citation"
+data-cites="SaraKale">@SaraKale</span></strong> 的博文<a
+href="https://www.sarakale.top/blog/posts/537344b2">waline
+邮件通知模板一览</a></p>
 <h2 id="年6月20日">2024年6月20日</h2>
 <ol type="1">
 <li>更新了评论系统。现在，如果您在评论时输入了邮箱，那么被回复后将会在邮箱进行通知；另外，你现在还可以注册账号，更方便地发布评论</li>
@@ -35,24 +154,57 @@
 </ol>
 <h2 id="年6月18日">2024年6月18日</h2>
 <ol type="1">
-<li>不再使用 <strong>KaTeX</strong> 进行 <strong>LaTeX</strong> 渲染，改为使用 <strong>MathJax</strong></li>
-<li>免费图床 <a href="https://www.imgtp.com">imgtp.com</a> 似了，所以自己用 <strong>Cloudflare Pages</strong> + <strong>Telegraph</strong> 搭了一个 <a href="https://img.moomcakesleep.top/">点我查看</a>，感谢 <strong><span class="citation" data-cites="cf-pages">@cf-pages</span></strong> 大佬的 <a href="https://github.com/cf-pages/Telegraph-Image">Telegraph-Image</a> 项目，同时感谢我的同学(自称 <strong>Moriarty</strong> 之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)</li>
+<li>不再使用 <strong>KaTeX</strong> 进行 <strong>LaTeX</strong>
+渲染，改为使用 <strong>MathJax</strong></li>
+<li>免费图床 <a href="https://www.imgtp.com">imgtp.com</a>
+似了，所以自己用 <strong>Cloudflare Pages</strong> +
+<strong>Telegraph</strong> 搭了一个 <a
+href="https://img.moomcakesleep.top/">点我查看</a>，感谢 <strong><span
+class="citation" data-cites="cf-pages">@cf-pages</span></strong> 大佬的
+<a
+href="https://github.com/cf-pages/Telegraph-Image">Telegraph-Image</a>
+项目，同时感谢我的同学(自称 <strong>Moriarty</strong>
+之人)提供电脑使我能够部署这个项目（）(不知道为什么移动网页端的Cloudflare连接不了Github账号)</li>
 <li>将封面和 <strong>README</strong> 分离了，感觉这样更好些</li>
 </ol>
 <h2 id="年6月9日">2024年6月9日</h2>
-<p>将所有使用 <a href="https://cdn.jsdelivr.net">cdn.jsdelivr.net</a> 的包改为使用 <a href="https://unpkg.com">unpkg.com</a><br> 讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的</p>
+<p>将所有使用 <a href="https://cdn.jsdelivr.net">cdn.jsdelivr.net</a>
+的包改为使用 <a href="https://unpkg.com">unpkg.com</a><br>
+讲真，感觉现在 cdn.jsdelivr.net 国内访问真的好慢，以前都不是的</p>
 <h2 id="年5月19日">2024年5月19日</h2>
-<p>时隔2个星期终于又更新了（鼓掌）<br> 更新内容: 1. 删除了 <strong>birthday</strong> 分支，将原 <strong>birthday</strong> 分支下的 <strong>birthday</strong> 文件夹移动至 <strong>main</strong> 根目录 2. 新建 <strong>festival</strong> 文件夹与 <strong>festival/2024</strong> 文件夹，并将 <strong>元旦快乐.md</strong> 与 <strong>新年快樂.md</strong> 移动至 <strong>festival/2024</strong> 文件夹 3. 新建 <strong>rhythm_game</strong> (音游)文件夹，并将 <strong>音游圣经.md</strong> 移动至其中 4. 增加 LaTeX 支持 5. 添加侧边栏展开插件 6. 新建 <strong>math</strong> (数学文件夹)，并于其编辑 <strong>实数r的a次方根近似公式及推导过程.md</strong> 7. 其余一些小更新</p>
+<p>时隔2个星期终于又更新了（鼓掌）<br> 更新内容: 1. 删除了
+<strong>birthday</strong> 分支，将原 <strong>birthday</strong> 分支下的
+<strong>birthday</strong> 文件夹移动至 <strong>main</strong> 根目录 2.
+新建 <strong>festival</strong> 文件夹与 <strong>festival/2024</strong>
+文件夹，并将 <strong>元旦快乐.md</strong> 与
+<strong>新年快樂.md</strong> 移动至 <strong>festival/2024</strong>
+文件夹 3. 新建 <strong>rhythm_game</strong> (音游)文件夹，并将
+<strong>音游圣经.md</strong> 移动至其中 4. 增加 LaTeX 支持 5.
+添加侧边栏展开插件 6. 新建 <strong>math</strong>
+(数学文件夹)，并于其编辑
+<strong>实数r的a次方根近似公式及推导过程.md</strong> 7.
+其余一些小更新</p>
 <h2 id="年5月5日">2024年5月5日</h2>
-<p>你现在可通过访问 <del><a href="https://status.moomcakesleep.top">status.moomcakesleep.top</a></del> 现已重定向至 <a href="https://status.yuecake.top">status.yuecake.top</a> 来查看 moomcake’s Website 的服务器运行状态<br> 效果如下图<br> <img src="https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg" alt="Status" /></p>
+<p>你现在可通过访问 <del><a
+href="https://status.moomcakesleep.top">status.moomcakesleep.top</a></del>
+现已重定向至 <a href="https://status.yuecake.top">status.yuecake.top</a>
+来查看 moomcake’s Website 的服务器运行状态<br> 效果如下图<br> <img
+src="https://img.moomcakesleep.top/file/c45365f828822301e5275.jpg"
+alt="Status" /></p>
 <h2 id="年5月4日">2024年5月4日</h2>
-<p>将评论系统从 <a href="https://cusdis.com">Cusdis</a> 迁移至 <a href="https://waline.js.org">Waline</a><br> 将 pyrepl 部署至 <a href="https://vercel.com">Vercel</a>，添加自己的域名后使用<a href="https://www.cloudflare-cn.com/">Cloudflare</a>进行加速</p>
+<p>将评论系统从 <a href="https://cusdis.com">Cusdis</a> 迁移至 <a
+href="https://waline.js.org">Waline</a><br> 将 pyrepl 部署至 <a
+href="https://vercel.com">Vercel</a>，添加自己的域名后使用<a
+href="https://www.cloudflare-cn.com/">Cloudflare</a>进行加速</p>
 <h2 id="年5月3日">2024年5月3日</h2>
-<p>将购买的域名(moomcakesleep.top)(5月2号在 <a href="https://dynadot.com.cn">Dynadot</a> 买的)解析至本站，并使用 <a href="https://www.cloudflare-cn.com/">Cloudflare</a> 进行加速</p>
+<p>将购买的域名(moomcakesleep.top)(5月2号在 <a
+href="https://dynadot.com.cn">Dynadot</a> 买的)解析至本站，并使用 <a
+href="https://www.cloudflare-cn.com/">Cloudflare</a> 进行加速</p>
 <h2 id="年4月24日">2024年4月24日</h2>
 <p>moomcake生日快樂！</p>
 <h2 id="年4月22日">2024年4月22日</h2>
-<p>删除了 <strong>weird</strong> 文件夹，将 <strong>音游圣经</strong> 重移回根目录，添加 Pyrepl 快速跳转链接</p>
+<p>删除了 <strong>weird</strong> 文件夹，将 <strong>音游圣经</strong>
+重移回根目录，添加 Pyrepl 快速跳转链接</p>
 <h2 id="年2月10日">2024年2月10日</h2>
 <p>各位新年快樂！</p>
 <h2 id="年2月1日">2024年2月1日</h2>
@@ -60,15 +212,17 @@
 <h2 id="年1月16日">2024年1月16日</h2>
 <p>改好了</p>
 <h2 id="年1月14日">2024年1月14日</h2>
-<p>更新了内容，包括：更改首页，删除 Hello,World ，建立奇奇怪怪的东西目录并将音游圣经移动至内部以及，写了这个更新日志</p>
+<p>更新了内容，包括：更改首页，删除 Hello,World
+，建立奇奇怪怪的东西目录并将音游圣经移动至内部以及，写了这个更新日志</p>
 <h2 id="年1月1日">2024年1月1日</h2>
 <p>庆祝新年快乐</p>
 <h2 id="年8月15日">2023年8月15日</h2>
 <p>给庆祝生日的单独建立了一个分支(birthday)</p>
 <h2 id="年8月14日">2023年8月14日</h2>
-<p>网站上线，并同时为同日生日的<a href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
+<p>网站上线，并同时为同日生日的<a
+href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
 <p><em>注:2024年1月14日以前的因为时间跨度较大而导致时间可能稍有不准确，不过内容我还是准确的</em></p>]]></description>
-    <pubDate>Sat, 3 Aug 2024 04:58:05 +0800</pubDate>
+    <pubDate>Mon, 20 Jan 2025 21:14:10 +0800</pubDate>
   </item>
    
   <item>
@@ -102,7 +256,9 @@
     <link>https://moomcakesleep.top/#/festival/2024/%e5%85%83%e6%97%a6%e5%bf%ab%e4%b9%90</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/festival/2024/%e5%85%83%e6%97%a6%e5%bf%ab%e4%b9%90</guid>
     <description><![CDATA[<h1 id="元旦快乐">元旦快乐</h1>
-<p>嘿，这裡是moomcake，首先，各位元旦快乐！ <br> 又是一年过去了啊，时间过得真快啊(笑) <br> 祝大家在新的一年里健健康康，万事如意，团团圆圆，开开心心！</p>]]></description>
+<p>嘿，这裡是moomcake，首先，各位元旦快乐！ <br>
+又是一年过去了啊，时间过得真快啊(笑) <br>
+祝大家在新的一年里健健康康，万事如意，团团圆圆，开开心心！</p>]]></description>
     <pubDate>Tue, 9 Jul 2024 13:38:34 +0800</pubDate>
   </item>
    
@@ -110,18 +266,29 @@
     <title><![CDATA[实数r的a次方根近似公式及推导过程]]></title>
     <link>https://moomcakesleep.top/#/math/%e5%ae%9e%e6%95%b0r%e7%9a%84a%e6%ac%a1%e6%96%b9%e6%a0%b9%e8%bf%91%e4%bc%bc%e5%85%ac%e5%bc%8f%e5%8f%8a%e6%8e%a8%e5%af%bc%e8%bf%87%e7%a8%8b</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/math/%e5%ae%9e%e6%95%b0r%e7%9a%84a%e6%ac%a1%e6%96%b9%e6%a0%b9%e8%bf%91%e4%bc%bc%e5%85%ac%e5%bc%8f%e5%8f%8a%e6%8e%a8%e5%af%bc%e8%bf%87%e7%a8%8b</guid>
-    <description><![CDATA[<h1 id="实数r的a次方根近似公式及推导过程">实数r的a次方根近似公式及推导过程</h1>
+    <description><![CDATA[<h1
+id="实数r的a次方根近似公式及推导过程">实数r的a次方根近似公式及推导过程</h1>
 <h2 id="公式">公式</h2>
-<p><span class="math inline">$x_{n+1}=\frac{1}{a}\left[(a-1) x_{n} +\frac{r}{x_{n}^{a-1}}\right]$</span></p>
+<p><span class="math inline">$x_{n+1}=\frac{1}{a}\left[(a-1) x_{n}
++\frac{r}{x_{n}^{a-1}}\right]$</span></p>
 <h2 id="推导过程">推导过程</h2>
-<p>设 <span class="math inline"><em>f</em>(<em>x</em>) = <em>x</em><sup><em>n</em></sup> − <em>r</em></span> ，根据牛顿迭代公式<span class="math inline">$x_{n+1} = x_{n} - \frac{f\left ( x_{n} \right ) }{f'\left ( x_{n} \right ) }$</span>，则有</p>
-<p><span class="math inline">$x_{n+1}=x_{n} - \frac{x_{n}^{a}-r}{ax_{n}^{a-1}}$</span></p>
+<p>设 <span
+class="math inline"><em>f</em>(<em>x</em>) = <em>x</em><sup><em>n</em></sup> − <em>r</em></span>
+，根据牛顿迭代公式<span class="math inline">$x_{n+1} = x_{n} -
+\frac{f\left ( x_{n} \right ) }{f'\left ( x_{n} \right )
+}$</span>，则有</p>
+<p><span class="math inline">$x_{n+1}=x_{n} -
+\frac{x_{n}^{a}-r}{ax_{n}^{a-1}}$</span></p>
 <p>等式右边进行通分，得</p>
-<p><span class="math inline">$x_{n+1}=\frac{ax_{n}^{a}-x_{n}^{a}+r}{ax_{n}^{a-1}}$</span></p>
-<p>等式右边上下同时约去<span class="math inline"><em>a</em><em>x</em><sub><em>n</em></sub><sup><em>a</em> − 1</sup></span>，得</p>
-<p><span class="math inline">$x_{n+1}=\frac{ax_{n}-x_{n}+\frac{r}{x_{n}^{a-1}}}{a}$</span></p>
+<p><span
+class="math inline">$x_{n+1}=\frac{ax_{n}^{a}-x_{n}^{a}+r}{ax_{n}^{a-1}}$</span></p>
+<p>等式右边上下同时约去<span
+class="math inline"><em>a</em><em>x</em><sub><em>n</em></sub><sup><em>a</em> − 1</sup></span>，得</p>
+<p><span
+class="math inline">$x_{n+1}=\frac{ax_{n}-x_{n}+\frac{r}{x_{n}^{a-1}}}{a}$</span></p>
 <p>变形，得</p>
-<p><span class="math inline">$x_{n+1}=\frac{1}{a} \left [\left ( a-1 \right )x_{n}+\frac{r}{x_{n}^{a-1}} \right ]$</span></p>]]></description>
+<p><span class="math inline">$x_{n+1}=\frac{1}{a} \left [\left ( a-1
+\right )x_{n}+\frac{r}{x_{n}^{a-1}} \right ]$</span></p>]]></description>
     <pubDate>Sun, 9 Jun 2024 15:35:45 +0800</pubDate>
   </item>
    
