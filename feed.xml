@@ -7,8 +7,8 @@
    
   <item>
     <title><![CDATA[构建一个实数a的算数平方根的无限连分数的方法]]></title>
-    <link>https://moomcakesleep.top/#/math/%e6%9e%84%e5%bb%ba%e4%b8%80%e4%b8%aa%e6%95%b0%e7%9a%84%e7%ae%97%e6%95%b0%e5%b9%b3%e6%96%b9%e6%a0%b9%e7%9a%84%e6%97%a0%e9%99%90%e8%bf%9e%e5%88%86%e6%95%b0%e7%9a%84%e6%96%b9%e6%b3%95</link>
-    <guid isPermaLink="false">https://moomcakesleep.top/#/math/%e6%9e%84%e5%bb%ba%e4%b8%80%e4%b8%aa%e6%95%b0%e7%9a%84%e7%ae%97%e6%95%b0%e5%b9%b3%e6%96%b9%e6%a0%b9%e7%9a%84%e6%97%a0%e9%99%90%e8%bf%9e%e5%88%86%e6%95%b0%e7%9a%84%e6%96%b9%e6%b3%95</guid>
+    <link>https://moomcakesleep.top/#/math/%e6%9e%84%e5%bb%ba%e4%b8%80%e4%b8%aa%e5%ae%9e%e6%95%b0a%e7%9a%84%e7%ae%97%e6%95%b0%e5%b9%b3%e6%96%b9%e6%a0%b9%e7%9a%84%e6%97%a0%e9%99%90%e8%bf%9e%e5%88%86%e6%95%b0%e7%9a%84%e6%96%b9%e6%b3%95</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/math/%e6%9e%84%e5%bb%ba%e4%b8%80%e4%b8%aa%e5%ae%9e%e6%95%b0a%e7%9a%84%e7%ae%97%e6%95%b0%e5%b9%b3%e6%96%b9%e6%a0%b9%e7%9a%84%e6%97%a0%e9%99%90%e8%bf%9e%e5%88%86%e6%95%b0%e7%9a%84%e6%96%b9%e6%b3%95</guid>
     <description><![CDATA[<h1
 id="构建一个实数a的算数平方根的无限连分数的方法">构建一个实数a的算数平方根的无限连分数的方法</h1>
 <h2 id="连分数">连分数</h2>
@@ -30,7 +30,9 @@ class="math display">$$[a_0,a_1,a_2,a_3]=a_0+\frac{1}{a_1+\frac{1}{a_2+\frac{1}{
 <h3 id="无限连分数">无限连分数</h3>
 <p>如果分式无限地写下去，有无限个变元，就得到无限连分数。无限连分数收敛等价于渐进分数收敛。</p>
 <p>有定理：</p>
+<blockquote>
 <p>无限连分数，如果各变元均大于等于 1，那么一定收敛。</p>
+</blockquote>
 <p>因为只要各变元为正，无限连分数的偶渐进分数单调递增（都比它小），奇渐进分数单调递减（都比它大）。而在均大于等于
 1 时，相邻（奇偶间）两个渐进分数之间距离可以给出估计式，趋于
 0，因此收敛。</p>
@@ -77,37 +79,7 @@ class="math display">$$\begin{equation}
           + \cfrac{a-1}{ 1 + \cfrac{a-1}{\ddots} } } }
 \end{equation}$$</span>
 这便是一个实数a的算数平方根的无限连分数形式了</p>]]></description>
-    <pubDate>Mon, 20 Jan 2025 21:14:10 +0800</pubDate>
-  </item>
-   
-  <item>
-    <title><![CDATA[友情链接~]]></title>
-    <link>https://moomcakesleep.top/#/friends</link>
-    <guid isPermaLink="false">https://moomcakesleep.top/#/friends</guid>
-    <description><![CDATA[<h1 id="友情链接">友情链接~</h1>
-<blockquote>
-<p>moomcake乐于且想要与各位结交朋友</p>
-</blockquote>
-<h2 id="我的朋友们">我的朋友们</h2>
-<p>现在这里空无一人呢… …</p>
-<h2 id="添加友链">添加友链</h2>
-<p>如果您想与 moomcake’s Website
-添加友链，请按照以下格式在评论区留言或发送邮件至
-mooncake13151514@outlook.fr，我会不定期查看并添加你的网站然后回复你(如果你没有分站点，网络地址便只提供一个便好)</p>
-<p>同时，这也是我的网站信息，请在我回复后尽快(最迟7天)添加(网站地址可任选其一)</p>
-<pre class="text"><code>我的网站: moomcake&#39;s Website
-头像链接: https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=512
-网站地址: (Vercel主) https://yuecake.top/
-(Netlify) https://yuecake.netlify.app/
-(Github Pages) https://moomcakesleep.github.io/
-博客简介: 名为moomcake的生物的栖息地...爱好数学、编程、电音</code></pre>
-<p>这是样式预览(请原谅我本人技艺不高，暂时只能这么简陋)</p>
-<p><a href="https://yuecake.top/"><img
-src="https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=64"
-alt="moomcake’s Website" /></a><br> 网站名称: moomcake’s Website<br>
-博客简介: 名为moomcake的生物的栖息地…爱好数学、编程、电音</p>
-<p>另外，虽然暂时每什么要求，但触犯了我个人的某些底线我还是会撤掉的，这是原则</p>]]></description>
-    <pubDate>Mon, 20 Jan 2025 21:14:10 +0800</pubDate>
+    <pubDate>Mon, 20 Jan 2025 21:54:40 +0800</pubDate>
   </item>
    
   <item>
@@ -120,6 +92,8 @@ alt="moomcake’s Website" /></a><br> 网站名称: moomcake’s Website<br>
 状态，得以恢复正常使用🎉以下是更新内容</p>
 <ol type="1">
 <li>添加了友链页面</li>
+<li>发布“构建一个实数a的算数平方根的无限连分数的方法”</li>
+<li>其它</li>
 </ol>
 <h2 id="年8月3日">2024年8月3日</h2>
 <ol type="1">
@@ -222,7 +196,7 @@ href="https://www.cloudflare-cn.com/">Cloudflare</a> 进行加速</p>
 <p>网站上线，并同时为同日生日的<a
 href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
 <p><em>注:2024年1月14日以前的因为时间跨度较大而导致时间可能稍有不准确，不过内容我还是准确的</em></p>]]></description>
-    <pubDate>Mon, 20 Jan 2025 21:14:10 +0800</pubDate>
+    <pubDate>Mon, 20 Jan 2025 21:54:40 +0800</pubDate>
   </item>
    
   <item>
@@ -236,9 +210,40 @@ href="https://b23.tv/xfpmGBK">朋友</a>送上了生日礼物及祝福</p>
 <h2 id="介绍">介绍</h2>
 <p>就如名字一般，这个网站是moomcake的个人网站，我通常会分享和一些东西和祝贺一些事情</p>
 <p>另外，这个网站有评论系统哦，欢迎来留言！</p>
+<p>这里也还有RSS订阅，欢迎订阅！(如果无法订阅请换成其它站点的域名)</p>
 <h2 id="最后">最后</h2>
 <p>Have fun here~ (゜-゜)つロ</p>]]></description>
-    <pubDate>Tue, 9 Jul 2024 15:36:41 +0800</pubDate>
+    <pubDate>Mon, 20 Jan 2025 21:54:40 +0800</pubDate>
+  </item>
+   
+  <item>
+    <title><![CDATA[友情链接~]]></title>
+    <link>https://moomcakesleep.top/#/friends</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/friends</guid>
+    <description><![CDATA[<h1 id="友情链接">友情链接~</h1>
+<blockquote>
+<p>moomcake乐于且想要与各位结交朋友</p>
+</blockquote>
+<h2 id="我的朋友们">我的朋友们</h2>
+<p>现在这里空无一人呢… …</p>
+<h2 id="添加友链">添加友链</h2>
+<p>如果您想与 moomcake’s Website
+添加友链，请按照以下格式在评论区留言或发送邮件至
+mooncake13151514@outlook.fr，我会不定期查看并添加你的网站然后回复你(如果你没有分站点，网络地址便只提供一个便好)</p>
+<p>同时，这也是我的网站信息，请在我回复后尽快(最迟7天)添加(网站地址可任选其一)</p>
+<pre class="text"><code>我的网站: moomcake&#39;s Website
+头像链接: https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=512
+网站地址: (Vercel主) https://yuecake.top/
+(Netlify) https://yuecake.netlify.app/
+(Github Pages) https://moomcakesleep.github.io/
+博客简介: 名为moomcake的生物的栖息地...爱好数学、编程、电音</code></pre>
+<p>这是样式预览(请原谅我本人技艺不高，暂时只能这么简陋)</p>
+<p><a href="https://yuecake.top/"><img
+src="https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=64"
+alt="moomcake’s Website" /></a><br> 网站名称: moomcake’s Website<br>
+博客简介: 名为moomcake的生物的栖息地…爱好数学、编程、电音</p>
+<p>另外，虽然暂时每什么要求，但触犯了我个人的某些底线我还是会撤掉的，这是原则</p>]]></description>
+    <pubDate>Mon, 20 Jan 2025 21:14:10 +0800</pubDate>
   </item>
    
   <item>
