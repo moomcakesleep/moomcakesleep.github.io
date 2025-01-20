@@ -14,4 +14,4 @@
 
 * **[友情链接](/friends.md)**
 
-* **[RSS](/feed.xml)**
+* **[RSS](https://yuecake.top/feed.xml)**
