@@ -12,4 +12,6 @@
     * [短链接](https://link.yuecake.top)
     * [Telegraph 图床](https://img.yuecake.top)
 
-* **[RSS](https://yuecake.top/feed.xml)**
+* **[友情链接](/friends.md)**
+
+* **[RSS](/feed.xml)**
