@@ -4,7 +4,9 @@
 
 ## 我的朋友们
 
-现在这里空无一人呢... ...
+[<img src="https://www.kei.ink/1723438612-image_1718285973307/" alt="Leaphy’s blog" width="10%">](https://www.kei.ink/)<br>
+网站名称：Leaphy’s blog<br>
+博客简介：leaphy的窝
 
 ## 添加友链
 
