@@ -99,6 +99,20 @@
           '//unpkg.com/@waline/emojis@1.2.0/qq',
           '//unpkg.com/@waline/emojis@1.2.0/tw-emoji'
           ],
+        imageUploader: (file) => {
+          let formData = new FormData();
+          let headers = new Headers();
+
+          formData.append('file', file)
+
+          return fetch('https:/img.yuecake.top/upload', {
+            method: 'POST',
+            headers: headers,
+            body: formData,
+          })
+            .then((resp) => resp.json())
+            .then((resp) => resp.data[0].src);
+        },
         },
       
       //MetingAPI
