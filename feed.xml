@@ -6,6 +6,94 @@
   <description>Welcome to moomcake's Website</description>
    
   <item>
+    <title><![CDATA[tyle>]]></title>
+    <link>https://moomcakesleep.top/#/friends</link>
+    <guid isPermaLink="false">https://moomcakesleep.top/#/friends</guid>
+    <description><![CDATA[<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+    }
+    .friend-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .friend-link {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: block; /* 让 <a> 标签变成块级元素 */
+        text-decoration: none; /* 去掉下划线 */
+        color: inherit; /* 继承父元素颜色 */
+    }
+    .friend-link:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .friend-link img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .friend-link h3 {
+        margin: 0;
+        font-size: 18px;
+        color: #333;
+    }
+    .friend-link p {
+        margin: 10px 0 0;
+        font-size: 14px;
+        color: #666;
+    }
+</style>
+<h1 id="友情链接">友情链接~</h1>
+<blockquote>
+<p>moomcake乐于且想要与各位结交朋友</p>
+</blockquote>
+<h2 id="我的朋友们">我的朋友们</h2>
+<div class="friend-links">
+<pre><code>&lt;!-- leaphy的窝 --&gt;
+&lt;a class=&quot;friend-link&quot; href=&quot;https://kei.ink&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;https://www.kei.ink/1723438612-image_1718285973307/&quot; alt=&quot;Leaphy’s blog&quot; width=&quot;10%&quot;&gt;
+    &lt;h3&gt;Leaphy&#39;s Blog&lt;/h3&gt;
+    &lt;p&gt;leaphy的窝&lt;/p&gt;
+&lt;/a&gt;</code></pre>
+</div>
+<h2 id="添加友链">添加友链</h2>
+<p>如果您想与 moomcake’s Website
+添加友链，请按照以下格式在评论区留言或发送邮件至
+moomcake@yuecake.top，我会不定期查看并添加你的网站然后回复你(如果你没有分站点，网络地址便只提供一个便好)</p>
+<p>同时，这也是我的网站信息，请在我回复后尽快(最迟7天)添加(网站地址可任选其一)</p>
+<pre class="text"><code>我的网站: moomcake&#39;s Website
+头像链接: https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=512
+网站地址: (Vercel主) https://yuecake.top/
+(Netlify) https://yuecake.netlify.app/
+(Github Pages) https://moomcakesleep.github.io/
+博客简介: 名为moomcake的生物的栖息地...爱好数学、编程、电音</code></pre>
+<p>这是样式预览(感谢 DeepSeek 的帮助())</p>
+<div class="friend-links">
+<pre><code>&lt;!-- moomcake&#39;s Wensite --&gt;
+&lt;a class=&quot;friend-link&quot; href=&quot;https://yuecake.top&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=64&quot; alt=&quot;示例网站 1&quot;&gt;
+    &lt;h3&gt;moomcake&#39;s Website&lt;/h3&gt;
+    &lt;p&gt;名为moomcake的生物的栖息地...爱好数学、编程、电音&lt;/p&gt;
+&lt;/a&gt;</code></pre>
+</div>
+<p>另外，虽然暂时没什么要求，但触犯了我个人的某些底线我还是会撤掉的，这是原则</p>]]></description>
+    <pubDate>Thu, 30 Jan 2025 22:37:25 +0800</pubDate>
+  </item>
+   
+  <item>
     <title><![CDATA[moomcake's Website]]></title>
     <link>https://moomcakesleep.top/#/README</link>
     <guid isPermaLink="false">https://moomcakesleep.top/#/README</guid>
@@ -19,40 +107,6 @@
 <h2 id="最后">最后</h2>
 <p>Have fun here~ (゜-゜)つロ</p>]]></description>
     <pubDate>Wed, 22 Jan 2025 02:39:44 +0800</pubDate>
-  </item>
-   
-  <item>
-    <title><![CDATA[友情链接~]]></title>
-    <link>https://moomcakesleep.top/#/friends</link>
-    <guid isPermaLink="false">https://moomcakesleep.top/#/friends</guid>
-    <description><![CDATA[<h1 id="友情链接">友情链接~</h1>
-<blockquote>
-<p>moomcake乐于且想要与各位结交朋友</p>
-</blockquote>
-<h2 id="我的朋友们">我的朋友们</h2>
-<hr />
-<p><a
-href="https://www.kei.ink/"><img src="https://www.kei.ink/1723438612-image_1718285973307/" alt="Leaphy’s blog" width="10%"></a><br>
-网站名称：Leaphy’s blog<br> 博客简介：leaphy的窝</p>
-<hr />
-<h2 id="添加友链">添加友链</h2>
-<p>如果您想与 moomcake’s Website
-添加友链，请按照以下格式在评论区留言或发送邮件至
-mooncake13151514@outlook.fr，我会不定期查看并添加你的网站然后回复你(如果你没有分站点，网络地址便只提供一个便好)</p>
-<p>同时，这也是我的网站信息，请在我回复后尽快(最迟7天)添加(网站地址可任选其一)</p>
-<pre class="text"><code>我的网站: moomcake&#39;s Website
-头像链接: https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=512
-网站地址: (Vercel主) https://yuecake.top/
-(Netlify) https://yuecake.netlify.app/
-(Github Pages) https://moomcakesleep.github.io/
-博客简介: 名为moomcake的生物的栖息地...爱好数学、编程、电音</code></pre>
-<p>这是样式预览(请原谅我本人技艺不高，暂时只能这么简陋)</p>
-<p><a href="https://yuecake.top/"><img
-src="https://cravatar.cn/avatar/4f6441840392b1c27314ce6cb9ddad9d.png?s=64"
-alt="moomcake’s Website" /></a><br> 网站名称: moomcake’s Website<br>
-博客简介: 名为moomcake的生物的栖息地…爱好数学、编程、电音</p>
-<p>另外，虽然暂时每什么要求，但触犯了我个人的某些底线我还是会撤掉的，这是原则</p>]]></description>
-    <pubDate>Tue, 21 Jan 2025 14:52:48 +0800</pubDate>
   </item>
    
   <item>
