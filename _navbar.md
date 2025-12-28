@@ -2,6 +2,7 @@
 * **分类**
     * [音游](/tag/rhythm_game.md)
     * [数学](/tag/math.md)
+    * [琐碎](/tag/trivial.md)
 
 * **站点**
     * [Vercel 主站](https://yuecake.top)
